@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: CBB752 Spring 2017
+tagline: Final Project
 ---
 {% include JB/setup %}
 
