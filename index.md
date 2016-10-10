@@ -5,8 +5,7 @@ tagline: Final Project
 ---
 {% include JB/setup %}
 
-About the Course
-----------------
+## About the Course
 
 -   **Title:** Bioinformatics: Practical Application of Data Mining & Simulation
 
@@ -28,8 +27,7 @@ About the Course
 
 -   Check out our [post on bioinformatics](<{% post_url 2016-4-10-Categories-of-knowledge-for-bioinformatics-education %}>).
 
-About the Final Project
------------------------
+# About the Final Project
 
 - **Why?**
 
@@ -53,6 +51,4 @@ About the Final Project
 
 ## About the Final Project
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
 
