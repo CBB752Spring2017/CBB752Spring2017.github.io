@@ -3,7 +3,7 @@ layout: page
 title: CBB752 Spring 2017
 tagline: Final Project
 ---
-{% include JB/setup %}
+[comment] <> ({% include JB/setup %})
 
 ## About the Course
 
