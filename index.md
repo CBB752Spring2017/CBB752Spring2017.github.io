@@ -19,6 +19,6 @@ About the Course
     networks, normalization of microarray data, mining of functional genomics
     data sets, and machine-learning approaches to data integration.
 - Check out our awesome [course website](<http://cbb752b17.gersteinlab.org>).
-- Check out our [post on bioinformatics](_posts/Categories-of-knowledge-for-bioinformatics-education.md)
+- Check out our [post on bioinformatics](<{% _posts/Categories-of-knowledge-for-bioinformatics-education.md %}>)
 - Check out our [post on bioinformatics](<{% post_url Categories-of-knowledge-for-bioinformatics-education %}>).
 
