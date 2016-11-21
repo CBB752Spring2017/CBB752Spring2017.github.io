@@ -13,11 +13,11 @@ About the Course
 
 - **Instuctor:** [Mark Gerstein](<http://www.gersteinlab.org>)
 
-- **TAs:** Mengting Gu, Paul Muir
+<!--- - **TAs:** Mengting Gu, Paul Muir
 
 - Check out our awesome [course website](<http://cbb752b17.gersteinlab.org>).
 
-- Check out our [post on bioinformatics](<{% post_url 2016-4-10-Categories-of-knowledge-for-bioinformatics-education %}>).
+- Check out our [post on bioinformatics](<{% post_url 2016-4-10-Categories-of-knowledge-for-bioinformatics-education %}>). --->
 
 
 ## About the Final Project
