@@ -11,7 +11,7 @@ About the Course
 
 - **Title:** Biomedical Data Science: Mining and Modeling
 
-- **Instuctor:** [Mark Gerstein](<http://www.gersteinlab.org>)
+<!--- - **Instuctor:** [Mark Gerstein](<http://www.gersteinlab.org>) --->
 
 <!--- - **TAs:** Mengting Gu, Paul Muir
 
