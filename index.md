@@ -7,4 +7,4 @@ tagline: Final Project
 About the Course
 ------------------
 - Title: Biomedical Data Science: Mining and Modeling
-- Instructor: Mark Gerstein
+- Instructor: [Gerstein, Mark](<http://www.gersteinlab.org>)
