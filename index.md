@@ -6,7 +6,7 @@ tagline: Final Project
 
 <!--- ( include JB/setup ) --->
 
-About the Course
+<!--- About the Course --->
 <!--- -------------------  --->
 
 <!---  - **Title:** Biomedical Data Science: Mining and Modeling --->
