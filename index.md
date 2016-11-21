@@ -18,19 +18,19 @@ About the Course
     analysis of protein structure, molecular-dynamics simulation, biological
     networks, normalization of microarray data, mining of functional genomics
     data sets, and machine-learning approaches to data integration.
-- Check out our awesome [course website](<http://cbb752b17.gersteinlab.org>).
+- **More Information:** Check out the [course website](<http://cbb752b17.gersteinlab.org>).
 
 Final Project
 -----------------------
 
 **Due: May 9th 11:59PM**
 
-Student will form teams to work on one of the following topics of intereste, though we are open to other potential projects if they are clearly articulated and of comparable scope to these listed below. The submitted final projects will be published on this website. It will also serve as a reference for later students and researches.
+Student will form teams to work on one of the following topics of interest, though we are open to other potential projects if they are clearly articulated and of comparable scope to these listed below. The submitted final projects will be published on this website. It will also serve as a reference for later students and researches.
 
 ### Topics
 
 #### Comparative Genomics
-Read [Game of Genomes](https://www.statnews.com/feature/game-of-genomes/season-one/). Perform similar analysis on other personal genomes (eg. [Micheal Synder's genome](https://www.ncbi.nlm.nih.gov/pubmed/22424236))
+Read [Game of Genomes](https://www.statnews.com/feature/game-of-genomes/season-one/). Perform similar analysis on other personal genomes (eg. [Micheal Synder's genome](https://www.ncbi.nlm.nih.gov/pubmed/22424236)). Try to start with raw sequencing file, if data available. Otherwise, starts with the BAM file and perform variances calling. Explore the SNVs you find in your VCF file from variances calling, compare the result with Karl Zimmer's genome.
 
 
 #### CRISPR Design
