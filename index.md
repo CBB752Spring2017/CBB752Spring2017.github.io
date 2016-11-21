@@ -9,7 +9,7 @@ tagline: Final Project
 About the Course
 <!--- -------------------  --->
 
-- **Title:** Biomedical Data Science: Mining and Modeling
+<!---  - **Title:** Biomedical Data Science: Mining and Modeling --->
 
 <!--- - **Instuctor:** [Mark Gerstein](<http://www.gersteinlab.org>) --->
 
