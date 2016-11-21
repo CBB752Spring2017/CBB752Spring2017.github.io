@@ -6,5 +6,7 @@ tagline: Final Project
 
 About the Course
 ------------------
-- **Title**: Biomedical Data Science: Mining and Modeling
-- **Instructor**: [Mark Gerstein](<http://www.gersteinlab.org>)
+- **Title:** Biomedical Data Science: Mining and Modeling
+- **Instructor:** [Mark Gerstein](<http://www.gersteinlab.org>)
+- **TAs:** Mengting Gu, Paul Muir
+
