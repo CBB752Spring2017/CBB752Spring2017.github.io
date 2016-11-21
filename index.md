@@ -41,3 +41,21 @@ About the Final Project
 
     Project topics are as following. Students can choose three to four favorite projects to work on.
     
+### For each sub-project, a group of three people will work on:
+
+1.  **R card**: sample input, source code in R, sample output, and documentation on
+    how to execute your code
+
+2.  **Python card**: sample input, source code in Python, sample output, and
+    documentation on how to execute your code
+
+3.  **English card**: methodology and background introductory documentation
+
+### Topics
+
+
+
+
+
+
+    
