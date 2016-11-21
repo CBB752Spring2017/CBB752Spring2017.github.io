@@ -53,7 +53,14 @@ About the Final Project
 
 ### Topics
 #### Comparative Genomics
-1. Read [Game of Genomes](https://www.statnews.com/feature/game-of-genomes/season-one/). Perform similar analysis on other personal genomes (eg. [Micheal Synder's genome](https://www.ncbi.nlm.nih.gov/pubmed/22424236)
+1. Read [Game of Genomes](https://www.statnews.com/feature/game-of-genomes/season-one/). Perform similar analysis on other personal genomes (eg. [Micheal Synder's genome](https://www.ncbi.nlm.nih.gov/pubmed/22424236))
+
+
+#### CRISPR Design
+1. Design personalized CRISPR gRNA targetting at their protein-coding mutations. Assess the off-target effect of your gRNA and try to assess its effect.
+
+#### Structure Analysis
+1. Check the protein-coding SNPs in Karl Zimmer's genome and Micheal Synder's genome. Look for SNPs that are potentially deleterious (for example, intersecting the SNPs with database like HGMD). What structural changes might have happen due to the mutation that cause phenotypic effect? 
 
 
 
