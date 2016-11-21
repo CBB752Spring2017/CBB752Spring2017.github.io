@@ -52,6 +52,9 @@ About the Final Project
 3.  **English card**: methodology and background introductory documentation
 
 ### Topics
+#### Comparative Genomics
+1. Read [Game of Genomes](https://www.statnews.com/feature/game-of-genomes/season-one/). Perform similar analysis on other personal genomes (eg. [Micheal Synder's genome](https://www.ncbi.nlm.nih.gov/pubmed/22424236)
+
 
 
 
