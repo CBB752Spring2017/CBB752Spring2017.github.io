@@ -30,14 +30,14 @@ Student will form teams to work on one of the following topics of interest, thou
 ### Topics
 
 #### Comparative Genomics
-Read [Game of Genomes](https://www.statnews.com/feature/game-of-genomes/season-one/). Perform similar analysis on other personal genomes (eg. [Micheal Synder's genome](https://www.ncbi.nlm.nih.gov/pubmed/22424236)). Try to start with raw sequencing file, if data available. Otherwise, starts with the BAM file and perform variances calling. Explore the SNVs you find in your VCF file from variances calling, compare the result with Karl Zimmer's genome.
+Read [Game of Genomes](https://www.statnews.com/feature/game-of-genomes/season-one/). Perform similar analysis on other personal genomes (eg. [Micheal Synder's genome](https://www.ncbi.nlm.nih.gov/pubmed/22424236)). Try to start with raw sequencing file, if data available. Otherwise, starts with the BAM file and perform variances calling. Explore the SNVs you find in your VCF file from variances calling, compare the result with Carl Zimmer's genome.
 
 
 #### CRISPR Design
 Design personalized CRISPR gRNA targetting at their protein-coding mutations. Assess the off-target effect of your gRNA and try to assess its effect.
 
 #### Structure Analysis
-Check the protein-coding SNPs in Karl Zimmer's genome and Micheal Synder's genome. Look for SNPs that are potentially deleterious (for example, intersecting the SNPs with database like HGMD). What structural changes might have happen due to the mutation that cause phenotypic effect? 
+Check the protein-coding SNPs in Carl Zimmer's genome and Micheal Synder's genome. Look for SNPs that are potentially deleterious (for example, intersecting the SNPs with database like HGMD). What structural changes might have happen due to the mutation that cause phenotypic effect? 
 
 
 
