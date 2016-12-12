@@ -30,22 +30,30 @@ Students will form teams to work on one of the following topics of interest, tho
 ### Topics
 
 #### Part 1: Comparative analysis of personal genomes:
+
 -1. Identify all of the SNPs for each personal genome.
+
 -2. Calculate how many SNPs are shared among all genomes and how many are person specific.
+
 -3. Intersect each person's SNPs with HGMD and identify which are disease associated. Are the shared or specific SNP sets enriched for disease associated SNPs
 
 #### Part 2: Personal genomes and personalized medicine (CRISPR):
 -1. Propose a tool that identifies any off target CRISPR sites given a genomic and guide RNA sequence.
+
 -2. Propose a tool that finds all PAM sites in the human reference genome as well as a personal genome and compares the similarity of the two sets
+
 -3. Propose a tool that determines the usefulness of CRISPR-targeted deaminases. How many disease associated SNPs could this technology edit?
+
 -4. Propose a tool that integrates additional genomic information to better predict CRISPR activity (e.g. DNase I hypersensitivity data from ENCODE).
 
 #### Part 3: Network analysis of personal genomes:
 -1. Propose a tool that calculates the degree centrality and betweenness centrality of proteins containing and not containing SNPs in the personal genomes using a PPI file.
+
 -2. One of the personal genomes has an accompanying transcriptomic time course. Identify pathways or gene networks whose expression is altered after HRV or RSV infection.
 
 #### Part 4: Structure Analysis
 Corey and Jennifer will get back to us with set of more refined projects.
+
 Check the protein-coding SNPs in Carl Zimmer's genome and Micheal Synder's genome. Look for SNPs that are potentially deleterious (for example, intersecting the SNPs with database like HGMD). What structural changes might have happen due to the mutation that cause phenotypic effect? 
 
 
