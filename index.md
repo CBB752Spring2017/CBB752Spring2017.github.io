@@ -25,23 +25,28 @@ Final Project
 
 **Due: May 9th 11:59PM**
 
-Student will form teams to work on one of the following topics of interest, though we are open to other potential projects if they are clearly articulated and of comparable scope to these listed below. The submitted final projects will be published on this website. It will also serve as a reference for later students and researches.
+Students will form teams to work on one of the following topics of interest, though we are open to other potential projects if they are clearly articulated and of comparable scope to these listed below. The submitted final projects will be published on this website. It will also serve as a reference for later students and researches.
 
 ### Topics
 
-#### Comparative Genomics
-Read [Game of Genomes](https://www.statnews.com/feature/game-of-genomes/season-one/). Perform similar analysis on other personal genomes (eg. [Micheal Synder's genome](https://www.ncbi.nlm.nih.gov/pubmed/22424236)). Try to start with raw sequencing file, if data available. Otherwise, starts with the BAM file and perform variances calling. Explore the SNVs you find in your VCF file from variances calling, compare the result with Carl Zimmer's genome.
+#### Part 1: Comparative analysis of personal genomes:
+-1. Identify all of the SNPs for each personal genome.
+-2. Calculate how many SNPs are shared among all genomes and how many are person specific.
+-3. Intersect each person's SNPs with HGMD and identify which are disease associated. Are the shared or specific SNP sets enriched for disease associated SNPs
 
+#### Part 2: Personal genomes and personalized medicine (CRISPR):
+-1. Propose a tool that identifies any off target CRISPR sites given a genomic and guide RNA sequence.
+-2. Propose a tool that finds all PAM sites in the human reference genome as well as a personal genome and compares the similarity of the two sets
+-3. Propose a tool that determines the usefulness of CRISPR-targeted deaminases. How many disease associated SNPs could this technology edit?
+-4. Propose a tool that integrates additional genomic information to better predict CRISPR activity (e.g. DNase I hypersensitivity data from ENCODE).
 
-#### CRISPR Design
-Design personalized CRISPR gRNA targetting at their protein-coding mutations. Assess the off-target effect of your gRNA and try to assess its effect.
+#### Part 3: Network analysis of personal genomes:
+-1. Propose a tool that calculates the degree centrality and betweenness centrality of proteins containing and not containing SNPs in the personal genomes using a PPI file.
+-2. One of the personal genomes has an accompanying transcriptomic time course. Identify pathways or gene networks whose expression is altered after HRV or RSV infection.
 
-#### Structure Analysis
+#### Part 4: Structure Analysis
+Corey and Jennifer will get back to us with set of more refined projects.
 Check the protein-coding SNPs in Carl Zimmer's genome and Micheal Synder's genome. Look for SNPs that are potentially deleterious (for example, intersecting the SNPs with database like HGMD). What structural changes might have happen due to the mutation that cause phenotypic effect? 
-
-
-
-
 
 
 
