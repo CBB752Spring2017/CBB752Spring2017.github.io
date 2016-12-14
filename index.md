@@ -35,7 +35,7 @@ Students will form teams to work on one of the following topics of interest, tho
 
 -2. Calculate how many SNPs are shared among all genomes and how many are person specific.
 
--3. Intersect each person's SNPs with HGMD and identify which are disease associated. Are the shared or specific SNP sets enriched for disease associated SNPs
+-3. Intersect each person's SNPs with [HGMD](<http://www.hgmd.cf.ac.uk/ac/index.php>) and identify which are disease associated. Are the shared or specific SNP sets enriched for disease associated SNPs
 
 #### Part 2: Personal genomes and personalized medicine (CRISPR):
 -1. Read the [paper](<http://palgrave.nature.com/nbt/journal/v34/n2/full/nbt.3437.html>) and some other papers about the design of guide RNAs. Discuss how would individual SNVs affect the off-target effects in the presence of the SNV. 
