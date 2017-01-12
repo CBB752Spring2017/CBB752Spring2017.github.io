@@ -31,7 +31,11 @@ Students will form teams to work on one of the following topics of interest, tho
 
 #### Part 1: Comparative analysis of personal genomes:
 
--1. Identify all of the SNPs for each personal genome.
+-1. Identifying SVs in personal genomes.
+
+   Coding card: Propose a tool that identify structural variation in a personal genome.
+   Implementation card: 
+   English card:
 
 -2. Calculate how many SNPs are shared among all genomes and how many are person specific.
 
@@ -52,8 +56,6 @@ Students will form teams to work on one of the following topics of interest, tho
 -2. One of the personal genomes has an accompanying transcriptomic time course. Identify pathways or gene networks whose expression is altered after HRV or RSV infection.
 
 #### Part 4: Structure Analysis
-Corey and Jennifer will get back to us with set of more refined projects.
-
 Check the protein-coding SNPs in Carl Zimmer's genome and Micheal Synder's genome. Look for SNPs that are potentially deleterious (for example, intersecting the SNPs with database like HGMD). What structural changes might have happen due to the mutation that cause phenotypic effect? 
 
 
