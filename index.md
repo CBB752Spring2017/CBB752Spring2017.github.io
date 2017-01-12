@@ -37,6 +37,8 @@ Students will form teams to work on one of the following topics of interest, tho
 
 -3. Intersect each person's SNPs with [HGMD](<http://www.hgmd.cf.ac.uk/ac/index.php>) and identify which are disease associated. Are the shared or specific SNP sets enriched for disease associated SNPs?
 
+
+
 #### Part 2: Personal genomes and personalized medicine (CRISPR):
 -1. Read this [paper](<http://palgrave.nature.com/nbt/journal/v34/n2/full/nbt.3437.html>) and other papers about the design of guide RNAs. Discuss how individual SNPs would impact the off-target effects in the presence of the SNP. 
 
@@ -48,13 +50,17 @@ Students will form teams to work on one of the following topics of interest, tho
 
 -5. Propose a tool that integrates additional genomic information to better predict CRISPR activity (e.g. DNase I hypersensitivity data from ENCODE).
 
+
+
 #### Part 3: Network analysis of personal genomes:
 -1. Propose a tool that calculates the degree centrality and betweenness centrality of proteins containing and not containing SNPs in the personal genomes using a PPI file.
 
 -2. One of the personal genomes has an accompanying transcriptomic time course. Identify pathways or gene networks whose expression are altered after HRV or RSV infection.
 
+
+
 #### Part 4: Structure Analysis
-Check the protein-coding SNPs in Carl Zimmer's genome and [Micheal Synder's genome](<http://www.cell.com/abstract/S0092-8674%2812%2900166-3>). Look for SNPs that are potentially deleterious (for example, intersecting the SNPs with a database like HGMD). What structural changes might happen due to the mutation that could cause a phenotypic change? 
+-1. Check the protein-coding SNPs in Carl Zimmer's genome and [Micheal Synder's genome](<http://www.cell.com/abstract/S0092-8674%2812%2900166-3>). Look for SNPs that are potentially deleterious (for example, intersecting the SNPs with a database like HGMD). What structural changes might happen due to the mutation that could cause a phenotypic change? 
 
 
 
