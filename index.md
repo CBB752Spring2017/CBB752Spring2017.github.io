@@ -33,10 +33,6 @@ Students will form teams to work on one of the following topics of interest, tho
 
 -1. Identifying SVs in personal genomes.
 
-   Coding card: Propose a tool that identify structural variation in a personal genome.
-   Implementation card: 
-   English card:
-
 -2. Calculate how many SNPs are shared among all genomes and how many are person specific.
 
 -3. Intersect each person's SNPs with [HGMD](<http://www.hgmd.cf.ac.uk/ac/index.php>) and identify which are disease associated. Are the shared or specific SNP sets enriched for disease associated SNPs
