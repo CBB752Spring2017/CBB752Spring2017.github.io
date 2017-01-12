@@ -58,8 +58,6 @@ Students will form teams to work on one of the following topics of interest, tho
 -2. One of the personal genomes has an accompanying transcriptomic time course. Identify pathways or gene networks whose expression is altered after HRV or RSV infection.
 
 #### Part 4: Structure Analysis
-Corey and Jennifer will get back to us with set of more refined projects.
-
 Check the protein-coding SNPs in Carl Zimmer's genome and [Micheal Synder's genome](<http://www.cell.com/abstract/S0092-8674%2812%2900166-3>). Look for SNPs that are potentially deleterious (for example, intersecting the SNPs with database like HGMD). What structural changes might have happen due to the mutation that cause phenotypic effect? 
 
 
