@@ -40,15 +40,13 @@ Students will form teams to work on one of the following topics of interest, tho
 
 
 #### Part 2: Personal genomes and personalized medicine (CRISPR):
--1. Read this [paper](<http://palgrave.nature.com/nbt/journal/v34/n2/full/nbt.3437.html>) and other papers about the design of guide RNAs. Discuss how individual SNPs would impact the off-target effects in the presence of the SNP. 
+-1. Propose a tool that identifies off target CRISPR sites given a genome and guide RNA sequence.
 
--2. Propose a tool that identifies off target CRISPR sites given a genome and guide RNA sequence.
+-2. Propose a tool that finds all PAM sites in the human reference genome as well as a personal genome and compares the similarity of the two sets.
 
--3. Propose a tool that finds all PAM sites in the human reference genome as well as a personal genome and compares the similarity of the two sets.
+-3. Propose a tool that determines the usefulness of CRISPR-targeted deaminases. How many disease associated SNPs could this technology edit?
 
--4. Propose a tool that determines the usefulness of CRISPR-targeted deaminases. How many disease associated SNPs could this technology edit?
-
--5. Propose a tool that integrates additional genomic information to better predict CRISPR activity (e.g. DNase I hypersensitivity data from ENCODE).
+-4. Propose a tool that integrates additional genomic information to better predict CRISPR activity (e.g. DNase I hypersensitivity data from ENCODE).
 
 
 
