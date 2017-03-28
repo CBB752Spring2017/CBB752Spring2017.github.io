@@ -59,4 +59,5 @@ Students will form teams to work on one of the following topics of interest, tho
 
 #### Part 4: Structure Analysis
 -1. Similar to Assignment 3, but look at structure of mutant type of 3VKO. Look at mutations at location 19: F19Y, F19I, F19L, and compare to the wild type. Perform side chain rotations for these mutant residue at location 19 and calculate the lowest energy conformation for each. 
+
 -2. Similar to Assignment 3, but look at structure of mutant type of 3VKO. Look at mutations at location 35: I35L, I35F, I35V, and compare to the wild type. Perform side chain rotations for these mutant residue at location 35 and calculate the lowest energy conformation for each. 
