@@ -80,7 +80,7 @@ Students will form teams to work on one of the following topics of interest, tho
 
 **-3 Analysis of CRISPR-targeted deaminases. See this [paper](< http://www.nature.com/nature/journal/v533/n7603/abs/nature17946.html>) for background.**
 
-**Writing:** What benefits do CRISPR-targeted deaminases have over CRISPR approaches that rely on double stranded breaks?
+**Writing:** What benefits do CRISPR-targeted deaminases have over CRISPR approaches that rely on double stranded breaks? What are the drawbacks?
 
 **Coding:** Propose a tool that creates sgRNAs for CRISPR-targeted deaminases. How many of Carl's SNPs could be changed? How many nonsynonymous protein coding changes in Carl's genome could be reverted?
 
