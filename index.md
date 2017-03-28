@@ -39,6 +39,7 @@ Students will form teams to work on one of the following topics of interest, tho
 
 **Pipeline:** Identify and run a tool that finds the population frequencies for each of the variants observed in Carl’s genome and also look to see how many are private variants. How do these number change based on the two databases used?
 
+
 **-2. Compare the variants in Carl’s genome with those found in the GTEx database. Use the results to predict gene expression in various tissues and better estimate the impact of noncoding variants in Carl’s genome.**
 
 **Writing:** Describe eQTLs and the GTEx database. How was the data present in GTEx generated and what scientific questions does it help answer?
@@ -57,24 +58,42 @@ Students will form teams to work on one of the following topics of interest, tho
 **Pipeline:** Look at various functional prediction programs and process Carl’s variants in the provided VCF file. How much agreement is observed between the different scores?
 
 
-
 #### Part 2: Personal genomes and personalized medicine (CRISPR):
 
--1. Read this [paper](<http://palgrave.nature.com/nbt/journal/v34/n2/full/nbt.3437.html>) and other papers about the design of guide RNAs. Discuss how individual SNPs would impact the off-target effects in the presence of the SNP. 
+**-1. Identifying off target CRISPR sites**
 
--2. Propose a tool that identifies off target CRISPR sites given a genome and guide RNA sequence.
+**Writing:** Explain the risk of off target mutations due to CRISPR. What factors determine the likelihood of a CRISPR guide RNA cutting at an off target site? 
 
--3. Propose a tool that finds PAM sites in the human reference genome as well as Carl’s genome and compares the similarity of the two sets.
+**Coding:** Propose a tool that identifies off target CRISPR sites given a genome and guide RNA sequence.
 
--4. Propose a tool that determines the usefulness of CRISPR-targeted deaminases. See this [paper](< http://www.nature.com/nature/journal/v533/n7603/abs/nature17946.html>) for background. How many disease associated SNPs could this technology edit?
+**Pipeline:** Using two off target site prediction programs look at the predicted off target sites and compare to empirical observations in this [paper](<https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1012-2>).
+
+
+**-2. CRISPR and personal genomics: The impact of SNPs on sgRNA sets and off target mutations.** 
+
+**Writing:** How might SNPs in Carl's genome impact the use of CRISPR as a treatment? Read this [paper](<http://palgrave.nature.com/nbt/journal/v34/n2/full/nbt.3437.html>) about the design of guide RNAs. Discuss how individual SNPs would impact the off-target effects in the presence of the SNP. 
+
+**Coding:** Propose a tool that finds PAM sites in the human reference genome as well as Carl’s genome and compares the similarity of the two sets.
+
+**Pipeline:** Calculate the sgRNA libraries for the reference genome and Carl's genome. How different are these two sets? See this [paper](<http://www.nature.com/nbt/journal/vaop/ncurrent/full/nbt.3804.html?WT.feed_name=subjects_genetics>).
+
+
+**-3 Analysis of CRISPR-targeted deaminases. See this [paper](< http://www.nature.com/nature/journal/v533/n7603/abs/nature17946.html>) for background.**
+
+**Writing:** What benefits do CRISPR-targeted deaminases have over CRISPR approaches that rely on double stranded breaks?
+
+**Coding:** Propose a tool that creates sgRNAs for CRISPR-targeted deaminases. How many of Carl's SNPs could be changed? How many nonsynonymous protein coding changes in Carl's genome could be reverted?
+
+**Pipeline:** How many disease associated SNPs could CRISPR-targeted deaminases edit?
 
 
 #### Part 3: Network analysis of personal genomes:
 
--1. Propose a tool that calculates the degree centrality and betweenness centrality of proteins containing and not containing SNPs in Carl’s genome using a PPI file. PPI data can be downloaded from DIP, BIND, MIPS, MINT, and InAct databases.
+**-1. Propose a tool that calculates the degree centrality and betweenness centrality of proteins containing and not containing SNPs in Carl’s genome using a PPI file. PPI data can be downloaded from DIP, BIND, MIPS, MINT, and InAct databases.**
+
 
 #### Part 4: Structure Analysis
 
--1. Similar to Assignment 3, but look at structure of mutant type of 3VKO. Look at mutations at location 19: F19Y, F19I, F19L, and compare to the wild type. Perform side chain rotations for these mutant residue at location 19 and calculate the lowest energy conformation for each.
+**-1. Similar to Assignment 3, but look at structure of mutant type of 3VKO. Look at mutations at location 19: F19Y, F19I, F19L, and compare to the wild type. Perform side chain rotations for these mutant residue at location 19 and calculate the lowest energy conformation for each.**
 
--2. Similar to Assignment 3, but look at structure of mutant type of 3VKO. Look at mutations at location 35: I35L, I35F, I35V, and compare to the wild type. Perform side chain rotations for these mutant residue at location 35 and calculate the lowest energy conformation for each.
+**-2. Similar to Assignment 3, but look at structure of mutant type of 3VKO. Look at mutations at location 35: I35L, I35F, I35V, and compare to the wild type. Perform side chain rotations for these mutant residue at location 35 and calculate the lowest energy conformation for each.**
