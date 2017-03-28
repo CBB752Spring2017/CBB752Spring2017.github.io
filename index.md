@@ -58,8 +58,5 @@ Students will form teams to work on one of the following topics of interest, tho
 
 
 #### Part 4: Structure Analysis
--1. Check the protein-coding SNPs in Carl Zimmer's genome and [Micheal Synder's genome](<http://www.cell.com/abstract/S0092-8674%2812%2900166-3>). Look for SNPs that are potentially deleterious (for example, intersecting the SNPs with a database like HGMD). What structural changes might happen due to the mutation that could cause a phenotypic change? 
-
-
-
-    
+-1. Similar to Assignment 3, but look at structure of mutant type of 3VKO. Look at mutations at location 19: F19Y, F19I, F19L, and compare to the wild type. Perform side chain rotations for these mutant residue at location 19 and calculate the lowest energy conformation for each. 
+-2. Similar to Assignment 3, but look at structure of mutant type of 3VKO. Look at mutations at location 35: I35L, I35F, I35V, and compare to the wild type. Perform side chain rotations for these mutant residue at location 35 and calculate the lowest energy conformation for each. 
