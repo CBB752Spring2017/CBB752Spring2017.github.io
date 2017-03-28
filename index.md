@@ -31,30 +31,31 @@ Students will form teams to work on one of the following topics of interest, tho
 
 #### Part 1: Comparative analysis of personal genomes:
 
--1. Compare the variants in Carl’s genome with those in the gnomAD and 1000 Genomes databases. Compare and contrast the results from the two databases.
+**-1. Compare the variants in Carl’s genome with those in the gnomAD and 1000 Genomes databases. Compare and contrast the results from the two databases.**
 
-Writing: Describe the 1000 Genomes and gnomAD databases and what can be learned from collections of variants observed in large populations. How have these databases evolved over the past decade?
+**Writing:** Describe the 1000 Genomes and gnomAD databases and what can be learned from collections of variants observed in large populations. How have these databases evolved over the past decade?
 
-Coding: Propose a tool that finds information on a subset of Carl’s variants in the gnomAD and 1000 genomes databases.
+**Coding:** Propose a tool that finds information on a subset of Carl’s variants in the gnomAD and 1000 genomes databases.
 
-Pipeline: Identify and run a tool that finds the population frequencies for each of the variants observed in Carl’s genome and also look to see how many are private variants. How do these number change based on the two databases used?
+**Pipeline:** Identify and run a tool that finds the population frequencies for each of the variants observed in Carl’s genome and also look to see how many are private variants. How do these number change based on the two databases used?
 
--2. Compare the variants in Carl’s genome with those found in the GTEx database. Use the results to predict gene expression in various tissues and better estimate the impact of noncoding variants in Carl’s genome.
+**-2. Compare the variants in Carl’s genome with those found in the GTEx database. Use the results to predict gene expression in various tissues and better estimate the impact of noncoding variants in Carl’s genome.**
 
-Writing: Describe eQTLs and the GTEx database. How was the data present in GTEx generated and what scientific questions does it help answer?
+**Writing:** Describe eQTLs and the GTEx database. How was the data present in GTEx generated and what scientific questions does it help answer?
 
-Coding: Propose a tool to identify eQTLs in a subset of Carl’s variants using the GTEx database. What expression changes would you predict in Carl? Make sure to cover tissues that can be easily assayed.
+**Coding:** Propose a tool to identify eQTLs in a subset of Carl’s variants using the GTEx database. What expression changes would you predict in Carl? Make sure to cover tissues that can be easily assayed.
 
-Pipeline: Process the variants in Carl’s genome to identify any eQTLs. Look at multiple tissues (make sure to include tissues that might be able to be tested in a noninvasive manner e.g. blood).
+**Pipeline:** Process the variants in Carl’s genome to identify any eQTLs. Look at multiple tissues (make sure to include tissues that might be able to be tested in a noninvasive manner e.g. blood).
 
 
--3. Looking at the protein coding mutations in the Zimmerome 
+**-3. Analyze at the protein coding mutations in the Zimmerome**
 
-Writing: Explain the different types of functional information that can be incorporated into a variant prioritization scheme. Describe both the features that were chosen as well as those not included but which might be useful to incorporate in the future.
+**Writing:** Explain the different types of functional information that can be incorporated into a variant prioritization scheme. Describe both the features that were chosen as well as those not included but which might be useful to incorporate in the future.
 
-Coding: Propose a tool to rank the deleteriousness of the identified protein coding mutations in Carl’s genome. In the case of nonsynonymous mutations look at different properties of the new amino acid relative to the original. This might include size, charge, etc. For synonymous mutations look at the codon preferences in humans. For stop codon introduction or removal look at the change in length of the new protein relative to the original.
+**Coding:** Propose a tool to rank the deleteriousness of the identified protein coding mutations in Carl’s genome. In the case of nonsynonymous mutations look at different properties of the new amino acid relative to the original. This might include size, charge, etc. For synonymous mutations look at the codon preferences in humans. For stop codon introduction or removal look at the change in length of the new protein relative to the original.
 
-Pipeline: Look at various functional prediction programs and process Carl’s variants in the provided VCF file. How much agreement is observed between the different scores?
+**Pipeline:** Look at various functional prediction programs and process Carl’s variants in the provided VCF file. How much agreement is observed between the different scores?
+
 
 
 #### Part 2: Personal genomes and personalized medicine (CRISPR):
@@ -66,6 +67,7 @@ Pipeline: Look at various functional prediction programs and process Carl’s va
 -3. Propose a tool that finds PAM sites in the human reference genome as well as Carl’s genome and compares the similarity of the two sets.
 
 -4. Propose a tool that determines the usefulness of CRISPR-targeted deaminases. See this [paper](< http://www.nature.com/nature/journal/v533/n7603/abs/nature17946.html>) for background. How many disease associated SNPs could this technology edit?
+
 
 #### Part 3: Network analysis of personal genomes:
 
