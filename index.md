@@ -31,33 +31,48 @@ Students will form teams to work on one of the following topics of interest, tho
 
 #### Part 1: Comparative analysis of personal genomes:
 
--1. Identifying SVs in personal genomes.
+-1. Compare the variants in Carl’s genome with those in the gnomAD and 1000 Genomes databases. Compare and contrast the results from the two databases.
 
--2. Calculate how many SNPs are shared among all genomes and how many are person specific.
+Writing: Describe the 1000 Genomes and gnomAD databases and what can be learned from collections of variants observed in large populations. How have these databases evolved over the past decade?
 
--3. Intersect each person's SNPs with [HGMD](<http://www.hgmd.cf.ac.uk/ac/index.php>) and identify which are disease associated. Are the shared or specific SNP sets enriched for disease associated SNPs?
+Coding: Propose a tool that finds information on a subset of Carl’s variants in the gnomAD and 1000 genomes databases.
 
+Pipeline: Identify and run a tool that finds the population frequencies for each of the variants observed in Carl’s genome and also look to see how many are private variants. How do these number change based on the two databases used?
+
+-2. Compare the variants in Carl’s genome with those found in the GTEx database. Use the results to predict gene expression in various tissues and better estimate the impact of noncoding variants in Carl’s genome.
+
+Writing: Describe eQTLs and the GTEx database. How was the data present in GTEx generated and what scientific questions does it help answer?
+
+Coding: Propose a tool to identify eQTLs in a subset of Carl’s variants using the GTEx database. What expression changes would you predict in Carl? Make sure to cover tissues that can be easily assayed.
+
+Pipeline: Process the variants in Carl’s genome to identify any eQTLs. Look at multiple tissues (make sure to include tissues that might be able to be tested in a noninvasive manner e.g. blood).
+
+
+-3. Looking at the protein coding mutations in the Zimmerome 
+
+Writing: Explain the different types of functional information that can be incorporated into a variant prioritization scheme. Describe both the features that were chosen as well as those not included but which might be useful to incorporate in the future.
+
+Coding: Propose a tool to rank the deleteriousness of the identified protein coding mutations in Carl’s genome. In the case of nonsynonymous mutations look at different properties of the new amino acid relative to the original. This might include size, charge, etc. For synonymous mutations look at the codon preferences in humans. For stop codon introduction or removal look at the change in length of the new protein relative to the original.
+
+Pipeline: Look at various functional prediction programs and process Carl’s variants in the provided VCF file. How much agreement is observed between the different scores?
 
 
 #### Part 2: Personal genomes and personalized medicine (CRISPR):
--1. Propose a tool that identifies off target CRISPR sites given a genome and guide RNA sequence.
 
--2. Propose a tool that finds all PAM sites in the human reference genome as well as a personal genome and compares the similarity of the two sets.
+-1. Read this [paper](<http://palgrave.nature.com/nbt/journal/v34/n2/full/nbt.3437.html>) and other papers about the design of guide RNAs. Discuss how individual SNPs would impact the off-target effects in the presence of the SNP. 
 
--3. Propose a tool that determines the usefulness of CRISPR-targeted deaminases. How many disease associated SNPs could this technology edit?
+-2. Propose a tool that identifies off target CRISPR sites given a genome and guide RNA sequence.
 
--4. Propose a tool that integrates additional genomic information to better predict CRISPR activity (e.g. DNase I hypersensitivity data from ENCODE).
+-3. Propose a tool that finds PAM sites in the human reference genome as well as Carl’s genome and compares the similarity of the two sets.
 
-
+-4. Propose a tool that determines the usefulness of CRISPR-targeted deaminases. See this [paper](< http://www.nature.com/nature/journal/v533/n7603/abs/nature17946.html>) for background. How many disease associated SNPs could this technology edit?
 
 #### Part 3: Network analysis of personal genomes:
--1. Propose a tool that calculates the degree centrality and betweenness centrality of proteins containing and not containing SNPs in the personal genomes using a PPI file.
 
--2. One of the personal genomes has an accompanying transcriptomic time course. Identify pathways or gene networks whose expression are altered after HRV or RSV infection.
-
-
+-1. Propose a tool that calculates the degree centrality and betweenness centrality of proteins containing and not containing SNPs in Carl’s genome using a PPI file. PPI data can be downloaded from DIP, BIND, MIPS, MINT, and InAct databases.
 
 #### Part 4: Structure Analysis
--1. Similar to Assignment 3, but look at structure of mutant type of 3VKO. Look at mutations at location 19: F19Y, F19I, F19L, and compare to the wild type. Perform side chain rotations for these mutant residue at location 19 and calculate the lowest energy conformation for each. 
 
--2. Similar to Assignment 3, but look at structure of mutant type of 3VKO. Look at mutations at location 35: I35L, I35F, I35V, and compare to the wild type. Perform side chain rotations for these mutant residue at location 35 and calculate the lowest energy conformation for each. 
+-1. Similar to Assignment 3, but look at structure of mutant type of 3VKO. Look at mutations at location 19: F19Y, F19I, F19L, and compare to the wild type. Perform side chain rotations for these mutant residue at location 19 and calculate the lowest energy conformation for each.
+
+-2. Similar to Assignment 3, but look at structure of mutant type of 3VKO. Look at mutations at location 35: I35L, I35F, I35V, and compare to the wild type. Perform side chain rotations for these mutant residue at location 35 and calculate the lowest energy conformation for each.
