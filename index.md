@@ -104,7 +104,7 @@ Students will form teams to work on one of the following topics of interest, tho
 
 **Coding:** modify the script provided, perform side chain rotations for each mutant residue at locations 19, and calculate the lowest energy conformation for each.
 
-**Pipeline:** Visualize the rotations of the two side chain dihedral angles.
+**Pipeline:** Get the relaxed protein structure following each mutation using the Rosetta Software suite. Write a function to calculate the root-mean-square deviation of the atomic positions betweenthe wildtype and mutant structure. Visualize the effects of each mutation.
 
 **-2. Analyze the structure of three mutant type of this protein at location 35: I35YL, I35F, I35V.**
 
@@ -112,4 +112,4 @@ Students will form teams to work on one of the following topics of interest, tho
 
 **Coding:** Modify the script provided, perform side chain rotations for each mutant residue at locations 19, and calculate the lowest energy conformation for each. 
 
-**Pipeline:** Visualize the rotations of the two side chain dihedral angles. 
+**Pipeline:** Get the relaxed protein structure following each mutation using the Rosetta Software suite. Write a function to calculate the root-mean-square deviation of the atomic positions betweenthe wildtype and mutant structure. Visualize the effects of each mutation. 
