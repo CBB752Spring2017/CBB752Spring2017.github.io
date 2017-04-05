@@ -95,7 +95,7 @@ Students will form teams to work on one of the following topics of interest, tho
 
 **Coding:** Calculate the degree centrality and betweenness centrality of proteins containing and not containing SNPs in Carl’s genome using a PPI file.
 
-**Pipeline:** Use Cytoscape or other softwares to visualize the protein-protein network. Check the centrality calculations with the software and demonstrate one or two examples.
+**Pipeline:** Use Cytoscape or other softwares to visualize the protein-protein network. Check the centrality calculations with the software and demonstrate one or two examples. Perform hierarchical network analysis and determine if there is enriched or depleted mutation in each hierarchy.
 
 #### Part 4: Structure Analysis
 **-1. Mutation F19Y is found in Karl Zimmer's genome for 3VKO. Analyze the structure of three mutant type of this protein at location 19: F19Y, F19I, F19L.**
@@ -104,12 +104,12 @@ Students will form teams to work on one of the following topics of interest, tho
 
 **Coding:** modify the script provided, perform side chain rotations for each mutant residue at locations 19, and calculate the lowest energy conformation for each.
 
-**Pipeline:** Visualize the change on software, get impact predictions from mutation database.
+**Pipeline:** Visualize the rotations of the two side chain dihedral angles.
 
 **-2. Analyze the structure of three mutant type of this protein at location 35: I35YL, I35F, I35V.**
 
 **Writing:** What changes has this mutation cause to the structure and what impact could the mutation have, from molecular pathway to the the phenotype?
 
-**Coding:** modify the script provided, perform side chain rotations for each mutant residue at locations 19, and calculate the lowest energy conformation for each. 
+**Coding:** Modify the script provided, perform side chain rotations for each mutant residue at locations 19, and calculate the lowest energy conformation for each. 
 
-**Pipeline:** Visualize the change on software, get impact predictions from mutation database.
+**Pipeline:** Visualize the rotations of the two side chain dihedral angles. 
