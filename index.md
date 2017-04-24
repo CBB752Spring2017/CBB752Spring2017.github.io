@@ -27,6 +27,14 @@ Final Project
 
 Students will form teams to work on one of the following topics of interest, though we are open to other potential projects if they are clearly articulated and of comparable scope to these listed below. The submitted final projects will be published on this website. It will also serve as a reference for later students and researchers.
 
+The end product of the final project will consist of a GitHub page detailing the work of each team. Additionally, each team is required to produce a PowerPoint presentation that provides: background on the topic the team investigated, the approach taken in the scripting component of the project, and a discussion of both the approach and results of the pipeline component.
+
+Those working on the writing component are responsible for both producing an introduction to the topic under investigation as well as working with their team members to thoroughly document the resultant code. 
+
+Projects from last year can be found here (http://cbb752spring2016.github.io/) and serve as a guide for the expected format.
+
+Files related to Carl’s genome can be found here (https://zimmerome.gersteinlab.org/2016/05/06/part01_gerstein/).
+
 ### Topics
 
 #### Part 1: Comparative analysis of personal genomes:
