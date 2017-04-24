@@ -31,9 +31,9 @@ The end product of the final project will consist of a GitHub page detailing the
 
 Those working on the writing component are responsible for both producing an introduction to the topic under investigation as well as working with their team members to thoroughly document the resultant code. 
 
-Projects from last year can be found here (http://cbb752spring2016.github.io/) and serve as a guide for the expected format.
+Projects from last year can be found [here](<http://cbb752spring2016.github.io/>) and serve as a guide for the expected format.
 
-Files related to Carl’s genome can be found here (https://zimmerome.gersteinlab.org/2016/05/06/part01_gerstein/).
+Files related to Carl’s genome can be found [here](<https://zimmerome.gersteinlab.org/2016/05/06/part01_gerstein/>).
 
 ### Topics
 
