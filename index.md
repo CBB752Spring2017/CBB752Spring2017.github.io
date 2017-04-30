@@ -86,7 +86,7 @@ Files related to Carl’s genome can be found [here](<https://zimmerome.gerstein
 **Pipeline:** Calculate the sgRNA libraries for the reference genome and Carl's genome. How different are these two sets? See this [paper](<http://www.nature.com/nbt/journal/vaop/ncurrent/full/nbt.3804.html?WT.feed_name=subjects_genetics>).
 
 
-**-3 Analysis of CRISPR-targeted deaminases. See this [paper](< http://www.nature.com/nature/journal/v533/n7603/abs/nature17946.html>) for background.**
+**-3 Analysis of CRISPR-targeted deaminases. See this [paper](<http://www.nature.com/nature/journal/v533/n7603/abs/nature17946.html>) for background.**
 
 **Writing:** What benefits do CRISPR-targeted deaminases have over CRISPR approaches that rely on double stranded breaks? What are the drawbacks?
 
