@@ -108,7 +108,7 @@ Files related to Carl’s genome can be found [here](<https://zimmerome.gerstein
 #### Part 4: Structure Analysis
 **Please see the zip file available at http://cbb752b17.gersteinlab.org/homework for all relevant files and equations for part 4.**
 
-**-1. Mutation F19Y is found in Karl Zimmer's genome for 3VKO. Analyze the structure of three mutant type of this protein at location 19: F19Y, F19I, F19L.**
+**-1. Mutation F19Y is found in Karl Zimmer’s genome for 4BMB (galectin-8). Analyze the structure of this mutation.**
 
 **Writing:** What changes has this mutation cause to the structure and what impact could the mutation have, from molecular pathway to the the phenotype? Read paper 1. Discuss the changes in protein structure and binding affinity caused by this mutation. Does this mutation cause changes in phenotype? In particular, discuss the changes seen in Figure 4.
 
@@ -117,9 +117,9 @@ A crystal structure exists for the F19Y mutation (4BME). Using the aligned files
 
 **Pipeline:** Download the 4BMB structure from the Protein DataBank. Using the Rosetta Software Suite, generate 10 different protein mutations at location 19 (chosse 10 of the 20 amino acids). Obtain the relaxed protein structure following each mutation from Rosetta and compare the energy of the resulting structures. Which mutant is most stabilizing and which is most destabilizing? Why do you think this is the case?
 
-**-2. Analyze the structure of three mutant type of this protein at location 35: I35YL, I35F, I35V.**
+**-2. Analyze the structure of another mutation of galectin-8 at location 35: I35F.**
 
-**Writing:** What changes has this mutation cause to the structure and what impact could the mutation have, from molecular pathway to the the phenotype? Why would we expect the I35F mutation to be more detrimental to the protein? Does this match what is found in the rmsd and energy calculations?
+**Writing:** What changes has this mutation cause to the structure and what impact could the mutation have, from molecular pathway to the the phenotype? Why would we expect the I35F mutation to be more detrimental to the protein than a mutation at location 19? Does this match what is found in the rmsd and energy calculations?
 
 **Coding:** : Once again, we have used the wildtype structure to investigate this mutation. The files 4BMB_I35.txt and 4BMB_I35F.txt contain the repulsive Lennard-Jones energy for each side chain dihedral angle combination of these two residues in the core of 4BMB. Plot the total potential energy involving interactions among side chain atoms as a function of chi 1 and chi 2. Discuss how much you expect the wildtype protein to change to accommodate this mutation. A three-dimensional structure of I35F was generated using the Rosetta Software Suite. Using the aligned files provided (3VKO_H_aligned.pdb, 3VKO_H_I35F_aligned.pdb), calculate the root-mean-squared deviation of the heavy atoms in the two structures. How might this rmsd be related to the stability of the protein?
 
