@@ -126,7 +126,7 @@ A crystal structure exists for the F19Y mutation (4BME). Using the aligned files
 **Pipeline:** Download the 4BMB structure from the Protein DataBank. Using the Rosetta Software suite, generate 10 different protein mutations at location 35 (choose the same 10 amino acids as above). Obtain the relaxed protein structure following each mutation from Rosetta and compare the energy of the resulting structures. Which mutant is most stabilizing and which is most destabilizing? Why do you think this is the case? Are mutations at this location more or less deleterious than at location 19?
 
 
-Paper 1: http://onlinelibrary.wiley.com/store/10.1111/febs.12716/asset/febs12716.pdf;jsessionid=BFEE15D38E9BE9EFC8F0B57394B44B5E.f03t04?v=1&t=j20fw18x&s=4a120c43ef373951c3f55ae39492fd817ba02b5d
+Paper 1: http://onlinelibrary.wiley.com/doi/10.1111/febs.12716/abstract
 
 These links may be helpful for getting started with Rosetta:
 http://2016.igem.org/wiki/images/5/59/Rosetta_Guide_for_the_iGEM_Beginner.pdf
