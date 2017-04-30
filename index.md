@@ -106,11 +106,11 @@ Files related to Carl’s genome can be found [here](<https://zimmerome.gerstein
 **Pipeline:** Use Cytoscape or other softwares to visualize the protein-protein network. Check the centrality calculations with the software and demonstrate one or two examples. Perform hierarchical network analysis and determine if there is enriched or depleted mutation in each hierarchy.
 
 #### Part 4: Structure Analysis
-**Please see the zip file available at http://cbb752b17.gersteinlab.org/homework for all relevant files and equations for part 4.**
+**Please see [here](<http://cbb752b17.gersteinlab.org/homework>) for all relevant files and equations for part 4.**
 
 **-1. Mutation F19Y is found in Karl Zimmer’s genome for 4BMB (galectin-8). Analyze the structure of this mutation.**
 
-**Writing:** What changes has this mutation cause to the structure and what impact could the mutation have, from molecular pathway to the the phenotype? Read paper 1. Discuss the changes in protein structure and binding affinity caused by this mutation. Does this mutation cause changes in phenotype? In particular, discuss the changes seen in Figure 4.
+**Writing:** What changes has this mutation cause to the structure and what impact could the mutation have, from molecular pathway to the the phenotype? Read this [paper](<http://onlinelibrary.wiley.com/doi/10.1111/febs.12716/abstract>) . Discuss the changes in protein structure and binding affinity caused by this mutation. Does this mutation cause changes in phenotype? In particular, discuss the changes seen in Figure 4.
 
 **Coding:** We have used the wildtype structure to investigate how this mutation will change the protein. The files 4BMB_F19.txt and 4BMB_F19Y.txt contain the repulsive Lennard-Jones energy for each side chain dihedral angle combination of these two residues in the protein core of 4BMB. Plot the total potential energy involving interactions among side chain atoms as a function of chi 1 and chi 2. Discuss how much you expect the wildtype protein to change to accommodate this mutation.
 A crystal structure exists for the F19Y mutation (4BME). Using the aligned files provided (4BMB_aligned.pdb, 4BME_aligned.pdb), calculate the root-mean-square deviation (rmsd) of the heavy atoms in the two structures. How might this rmsd be related to the stability of the protein?
@@ -126,9 +126,5 @@ A crystal structure exists for the F19Y mutation (4BME). Using the aligned files
 **Pipeline:** Download the 4BMB structure from the Protein DataBank. Using the Rosetta Software suite, generate 10 different protein mutations at location 35 (choose 10 of the 20 amino acids). Obtain the relaxed protein structure following each mutation from Rosetta and compare the energy of the resulting structures. Which mutant is most stabilizing and which is most destabilizing? Why do you think this is the case? Are mutations at this location more or less deleterious than at location 19?
 
 
-Paper 1: http://onlinelibrary.wiley.com/doi/10.1111/febs.12716/abstract
-
-These links may be helpful for getting started with Rosetta:
-http://2016.igem.org/wiki/images/5/59/Rosetta_Guide_for_the_iGEM_Beginner.pdf
-https://www.rosettacommons.org/demos/latest/public/calculate_protein_protein_ddg/README
+Here are some links that may be helpful for getting started with Rosetta: [Guide for Beginner](<http://2016.igem.org/wiki/images/5/59/Rosetta_Guide_for_the_iGEM_Beginner.pdf>), [Protein-protein ddg](<https://www.rosettacommons.org/demos/latest/public/calculate_protein_protein_ddg/README>)
  
