@@ -106,18 +106,29 @@ Files related to Carl’s genome can be found [here](<https://zimmerome.gerstein
 **Pipeline:** Use Cytoscape or other softwares to visualize the protein-protein network. Check the centrality calculations with the software and demonstrate one or two examples. Perform hierarchical network analysis and determine if there is enriched or depleted mutation in each hierarchy.
 
 #### Part 4: Structure Analysis
+**Please see the zip file available at http://cbb752b17.gersteinlab.org/homework for all relevant files and equations for part 4.**
+
 **-1. Mutation F19Y is found in Karl Zimmer's genome for 3VKO. Analyze the structure of three mutant type of this protein at location 19: F19Y, F19I, F19L.**
 
-**Writing:** What changes has this mutation cause to the structure and what impact could the mutation have, from molecular pathway to the the phenotype?
+**Writing:** What changes has this mutation cause to the structure and what impact could the mutation have, from molecular pathway to the the phenotype? Read paper 1. Discuss the changes in protein structure and binding affinity caused by this mutation. Does this mutation cause changes in phenotype? In particular, discuss the changes seen in Figure 4.
 
-**Coding:** modify the script provided, perform side chain rotations for each mutant residue at locations 19, and calculate the lowest energy conformation for each.
+**Coding:** We have used the wildtype structure to investigate how this mutation will change the protein. The files 4BMB_F19.txt and 4BMB_F19Y.txt contain the repulsive Lennard-Jones energy for each side chain dihedral angle combination of these two residues in the protein core of 4BMB. Plot the total potential energy involving interactions among side chain atoms as a function of chi 1 and chi 2. Discuss how much you expect the wildtype protein to change to accommodate this mutation.
+A crystal structure exists for the F19Y mutation (4BME). Using the aligned files provided (4BMB_aligned.pdb, 4BME_aligned.pdb), calculate the root-mean-square deviation (rmsd) of the heavy atoms in the two structures. How might this rmsd be related to the stability of the protein?
 
-**Pipeline:** Get the relaxed protein structure following each mutation using the Rosetta Software suite. Write a function to calculate the root-mean-square deviation of the atomic positions betweenthe wildtype and mutant structure. Visualize the effects of each mutation.
+**Pipeline:** Download the 4BMB structure from the Protein DataBank. Using the Rosetta Software Suite, generate 10 different protein mutations at location 19 (chosse 10 of the 20 amino acids). Obtain the relaxed protein structure following each mutation from Rosetta and compare the energy of the resulting structures. Which mutant is most stabilizing and which is most destabilizing? Why do you think this is the case?
 
 **-2. Analyze the structure of three mutant type of this protein at location 35: I35YL, I35F, I35V.**
 
-**Writing:** What changes has this mutation cause to the structure and what impact could the mutation have, from molecular pathway to the the phenotype?
+**Writing:** What changes has this mutation cause to the structure and what impact could the mutation have, from molecular pathway to the the phenotype? Why would we expect the I35F mutation to be more detrimental to the protein? Does this match what is found in the rmsd and energy calculations?
 
-**Coding:** Modify the script provided, perform side chain rotations for each mutant residue at locations 19, and calculate the lowest energy conformation for each. 
+**Coding:** : Once again, we have used the wildtype structure to investigate this mutation. The files 4BMB_I35.txt and 4BMB_I35F.txt contain the repulsive Lennard-Jones energy for each side chain dihedral angle combination of these two residues in the core of 4BMB. Plot the total potential energy involving interactions among side chain atoms as a function of chi 1 and chi 2. Discuss how much you expect the wildtype protein to change to accommodate this mutation. A three-dimensional structure of I35F was generated using the Rosetta Software Suite. Using the aligned files provided (3VKO_H_aligned.pdb, 3VKO_H_I35F_aligned.pdb), calculate the root-mean-squared deviation of the heavy atoms in the two structures. How might this rmsd be related to the stability of the protein?
 
-**Pipeline:** Get the relaxed protein structure following each mutation using the Rosetta Software suite. Write a function to calculate the root-mean-square deviation of the atomic positions betweenthe wildtype and mutant structure. Visualize the effects of each mutation. 
+**Pipeline:** Download the 4BMB structure from the Protein DataBank. Using the Rosetta Software suite, generate 10 different protein mutations at location 35 (choose the same 10 amino acids as above). Obtain the relaxed protein structure following each mutation from Rosetta and compare the energy of the resulting structures. Which mutant is most stabilizing and which is most destabilizing? Why do you think this is the case? Are mutations at this location more or less deleterious than at location 19?
+
+
+Paper 1: http://onlinelibrary.wiley.com/store/10.1111/febs.12716/asset/febs12716.pdf;jsessionid=BFEE15D38E9BE9EFC8F0B57394B44B5E.f03t04?v=1&t=j20fw18x&s=4a120c43ef373951c3f55ae39492fd817ba02b5d
+
+These links may be helpful for getting started with Rosetta:
+http://2016.igem.org/wiki/images/5/59/Rosetta_Guide_for_the_iGEM_Beginner.pdf
+https://www.rosettacommons.org/demos/latest/public/calculate_protein_protein_ddg/README
+ 
