@@ -1,9 +1,10 @@
 ---
 layout: page
 title: Final project 1.1
-tagline: Final Project
-weight 1
+group: Final project
+weight: 1
 ---
+
 
 Part 1.1 - Comparative Analysis of Personal Genomes
 ----------------------
