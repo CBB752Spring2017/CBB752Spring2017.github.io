@@ -48,7 +48,7 @@ Files related to Carl’s genome can be found [here](<https://zimmerome.gerstein
 **Pipeline:** Identify and run a tool that finds the population frequencies for each of the variants observed in Carl’s genome and also look to see how many are private variants. How do these number change based on the two databases used?
 
 
-**-2. Compare the variants in Carl’s genome with those found in the GTEx database. Use the results to predict gene expression in various tissues and better estimate the impact of noncoding variants in Carl’s genome.**
+**[-2. Compare the variants in Carl’s genome with those found in the GTEx database. Use the results to predict gene expression in various tissues and better estimate the impact of noncoding variants in Carl’s genome.]({{site.url}}/team_1.2)**
 
 **Writing:** Describe eQTLs and the GTEx database. How was the data present in GTEx generated and what scientific questions does it help answer?
 
@@ -57,7 +57,7 @@ Files related to Carl’s genome can be found [here](<https://zimmerome.gerstein
 **Pipeline:** Process the variants in Carl’s genome to identify any eQTLs. Look at multiple tissues (make sure to include tissues that might be able to be tested in a noninvasive manner e.g. blood).
 
 
-**-3. Analyze at the protein coding mutations in the Zimmerome**
+**[-3. Analyze at the protein coding mutations in the Zimmerome (group 1)]({{site.url}}/team_1.3_1) [(group 2)]({{site.url}}/team_1.3_2)**
 
 **Writing:** Explain the different types of functional information that can be incorporated into a variant prioritization scheme. Describe both the features that were chosen as well as those not included but which might be useful to incorporate in the future.
 
@@ -68,7 +68,7 @@ Files related to Carl’s genome can be found [here](<https://zimmerome.gerstein
 
 #### Part 2: Personal genomes and personalized medicine (CRISPR):
 
-**-1. Identifying off target CRISPR sites**
+**[-1. Identifying off target CRISPR sites (group 1)]({{site.url}}/team_2.1_1) [(group 2)]({{site.url}}/team_2.1_2)**
 
 **Writing:** Explain the risk of off target mutations due to CRISPR. What factors determine the likelihood of a CRISPR guide RNA cutting at an off target site? 
 
@@ -77,7 +77,7 @@ Files related to Carl’s genome can be found [here](<https://zimmerome.gerstein
 **Pipeline:** Using two off target site prediction programs look at the predicted off target sites and compare to empirical observations in this [paper](<https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1012-2>).
 
 
-**-2. CRISPR and personal genomics: The impact of SNPs on sgRNA sets and off target mutations.** 
+**[-2. CRISPR and personal genomics: The impact of SNPs on sgRNA sets and off target mutations. (group 1)]({{site.url}}/team_2.2_1) [(group 2)]({{site.url}}/team_2.2_2)** 
 
 **Writing:** How might SNPs in Carl's genome impact the use of CRISPR as a treatment? Read this [paper](<http://palgrave.nature.com/nbt/journal/v34/n2/full/nbt.3437.html>) about the design of guide RNAs. Discuss how individual SNPs would impact the off-target effects in the presence of the SNP. 
 
@@ -86,18 +86,9 @@ Files related to Carl’s genome can be found [here](<https://zimmerome.gerstein
 **Pipeline:** Calculate the sgRNA libraries for the reference genome and Carl's genome. How different are these two sets? See this [paper](<http://www.nature.com/nbt/journal/vaop/ncurrent/full/nbt.3804.html?WT.feed_name=subjects_genetics>).
 
 
-**-3 Analysis of CRISPR-targeted deaminases. See this [paper](<http://www.nature.com/nature/journal/v533/n7603/abs/nature17946.html>) for background.**
-
-**Writing:** What benefits do CRISPR-targeted deaminases have over CRISPR approaches that rely on double stranded breaks? What are the drawbacks?
-
-**Coding:** Propose a tool that creates sgRNAs for CRISPR-targeted deaminases. How many of Carl's SNPs could be changed? How many nonsynonymous protein coding changes in Carl's genome could be reverted?
-
-**Pipeline:** How many disease associated SNPs could CRISPR-targeted deaminases edit?
-
-
 #### Part 3: Network analysis of personal genomes:
 
-**-1. Propose a tool that calculates the degree centrality and betweenness centrality of proteins containing and not containing SNPs in Carl’s genome using a PPI file. PPI data can be downloaded from DIP, BIND, MIPS, MINT, and InAct databases.**
+**[-1. Propose a tool that calculates the degree centrality and betweenness centrality of proteins containing and not containing SNPs in Carl’s genome using a PPI file. PPI data can be downloaded from DIP, BIND, MIPS, MINT, and InAct databases. (group 1)]({{site.url}}/team_3.1) [(group 2)]({{site.url}}/team_3.2)**
 
 **Writing:** Disucss the difference of degree centrality and betweenness centrality you observed. How are these centralities measurement helpful for us to understand different mutations and the protein-protein network.
 
@@ -108,7 +99,7 @@ Files related to Carl’s genome can be found [here](<https://zimmerome.gerstein
 #### Part 4: Structure Analysis
 **Please see [here](<http://cbb752b17.gersteinlab.org/homework>) for all relevant files and equations for part 4.**
 
-**-1. Mutation F19Y is found in Karl Zimmer’s genome for 4BMB (galectin-8). Analyze the structure of this mutation.**
+**[-1. Mutation F19Y is found in Karl Zimmer’s genome for 4BMB (galectin-8). Analyze the structure of this mutation.]({{site.url}}/team_4.1)**
 
 **Writing:** What changes has this mutation cause to the structure and what impact could the mutation have, from molecular pathway to the the phenotype? Read this [paper](<http://onlinelibrary.wiley.com/doi/10.1111/febs.12716/abstract>) . Discuss the changes in protein structure and binding affinity caused by this mutation. Does this mutation cause changes in phenotype? In particular, discuss the changes seen in Figure 4.
 
@@ -117,7 +108,7 @@ A crystal structure exists for the F19Y mutation (4BME). Using the aligned files
 
 **Pipeline:** Download the 4BMB structure from the Protein DataBank. Using the Rosetta Software Suite, generate 10 different protein mutations at location 19 (choose 10 of the 20 amino acids). Obtain the relaxed protein structure following each mutation from Rosetta and compare the energy of the resulting structures. Which mutant is most stabilizing and which is most destabilizing? Why do you think this is the case?
 
-**-2. Analyze the structure of another mutation of galectin-8 at location 35: I35F.**
+**[-2. Analyze the structure of another mutation of galectin-8 at location 35: I35F.]({{site.url}}/team_4.2)**
 
 **Writing:** What changes has this mutation cause to the structure and what impact could the mutation have, from molecular pathway to the the phenotype? Why would we expect the I35F mutation to be more detrimental to the protein than a mutation at location 19? Does this match what is found in the rmsd and energy calculations?
 
