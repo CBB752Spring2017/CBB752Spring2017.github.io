@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CBB752 Spring 2017
+title: Final project 3.1
 tagline: Final Project
 ---
 
@@ -19,12 +19,6 @@ Table of Contents
 7. [Appendix](#appendix)
 
 
-
-
-**Contributors**
- -Writing: Amy Zhao
- -Coding: Hussein Mohsen
- -Pipeline: Dingjue Ji
 
 ### Introduction:
 #### Project Summary
