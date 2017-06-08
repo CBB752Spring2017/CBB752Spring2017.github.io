@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CBB752 Spring 2017
+title: Final project 3.1
 tagline: Final Project
 ---
 
@@ -17,12 +17,6 @@ Table of Contents
 5. [Conclusions](#conclusions)
 6. [References](#references)
 
-
-
-**Contributors**  
--   Writing: James Diao  
--   Coding: Zhaolong Yu  
--   Pipeline: Dingjue Ji  
 
 -----------------------
 
