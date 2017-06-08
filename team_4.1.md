@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CBB752 Spring 2017
+title: Final project 4.1
 tagline: Final Project
 ---
 
@@ -18,13 +18,6 @@ Table of Contents
 5. [Conclusions](#conclusions)
 6. [References](#references)
 
-**Contributors**
- 
- -Writing: Acer Xu
- 
- -Coding: Yekaterina Kovalyova
- 
- -Pipeline: Hussein Mohsen
 
 ### Introduction:
 
