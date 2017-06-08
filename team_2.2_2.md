@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CBB752 Spring 2017
+title: Final project 2.2
 tagline: Final Project
 ---
 
@@ -18,12 +18,6 @@ Table of Contents
 * [References](#references)
 
 
-
-
-**Contributors**
- -Writing: Olivia Justynski
- -Coding: Daniel Chawla
- -Pipeline: Amber Jessop
 
 ### Introduction:
 
