@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CBB752 Spring 2017
+title: Final project 1.3
 tagline: Final Project
 ---
 
@@ -11,15 +11,6 @@ Project Title
 Table of Contents
 -----------------------
 
-
-
-
-**Contributors**
- -Writing: Yuyang Liu  
-
- -Coding: Zhaolong Yu
-
- -Pipeline: Megan Brady
 
 
 ### Introduction:
