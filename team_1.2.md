@@ -158,23 +158,12 @@ One example of eQTL identified in subject Z’s genome is rs1886730, located on 
 
 
 
-
-
-
-
-
-
-
-
 #### Conclusions:  
 The overall frequency of eQTLs identified through RegulomeDB is much smaller than that observed through direct comparison with GTEx database. The possible explanation for such discrepancy lies in 1. Only the common SNPs (with frequency larger than 0.01 among at least one population) were used for annotating Carl’s genome, which potentially leads to the underestimation of eQTLs by ignoring rare SNPs; 2. Chromosomal bias in SNP and eQTL numbers.  The input sample represent only 0.1% of total genome at one terminus of chromosome 1, and may thus biasedly represent the distribution of eQTLs in different genomic regions. Majority of eQTLs identified through RegulomeDB comes from blood cells, which is consistent with our result from direct comparison with GTEx database. This tissue bias is possibly a result of larger sample size due to easy accessibility of blood; however, immune-related genes actively transcribed in leukocytes might be more prone to regulation by eQTLs, as our GO enrichment analysis showed specific enrichment in immune-related genes in other peripheral tissues.   
 ![alt text](https://github.com/CBB752Spring2017/final-project-1-2-team-1-2/blob/master/pipeline%20images%20copy/image%206.png "Logo Title Text 1")  
 
 
-
-
-
-
+### [Source code](https://github.com/CBB752Spring2017/final-project-1-2-team-1-2)
 
 
 #### References:
