@@ -1,8 +1,7 @@
 ---
 layout: page
 title: Final project 1.1
-group: navigation
-weight: 1
+tagline: Final project
 ---
 
 
