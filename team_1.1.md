@@ -1,7 +1,8 @@
 ---
 layout: page
-title: CBB752 Spring 2017
+title: Final project 1.1
 tagline: Final Project
+weight 1
 ---
 
 Part 1.1 - Comparative Analysis of Personal Genomes
@@ -17,11 +18,6 @@ Table of Contents
 5. [Conclusions](#conclusions)
 6. [References](#references)
 
-
-**Contributors**  
--   Writing: James Diao  
--   Coding: Dingjue Ji  
--   Pipeline: Nir Neumark
 
 ----------------------
 
