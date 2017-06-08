@@ -88,7 +88,7 @@ Files related to Carl’s genome can be found [here](<https://zimmerome.gerstein
 
 #### Part 3: Network analysis of personal genomes:
 
-**[-1. Propose a tool that calculates the degree centrality and betweenness centrality of proteins containing and not containing SNPs in Carl’s genome using a PPI file. PPI data can be downloaded from DIP, BIND, MIPS, MINT, and InAct databases. (group 1)]({{site.url}}/team_3.1) [(group 2)]({{site.url}}/team_3.2)**
+**[-1. Propose a tool that calculates the degree centrality and betweenness centrality of proteins containing and not containing SNPs in Carl’s genome using a PPI file. PPI data can be downloaded from DIP, BIND, MIPS, MINT, and InAct databases. (group 1)]({{site.url}}/team_3.1_1) [(group 2)]({{site.url}}/team_3.1_2)**
 
 **Writing:** Disucss the difference of degree centrality and betweenness centrality you observed. How are these centralities measurement helpful for us to understand different mutations and the protein-protein network.
 
