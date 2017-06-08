@@ -389,9 +389,11 @@ validated off target sites from 31 guide RNAs. Discrepancies between our work an
 that published in Haeussler et al likely step from differences in target genomes.
 
 
-Citations
----------
+### [Source code](https://github.com/CBB752Spring2017/final-project-2-1-team2-team-2-1-2)
 
+
+#### References:
+ 
 1.Zhu, L. J., Holmes, B. R., Aronin, N. & Brodsky, M. H. CRISPRseek: A
 Bioconductor Package to Identify Target-Specific Guide RNAs for
 CRISPR-Cas9 Genome-Editing Systems. PLoS One 9, (2014). 
@@ -401,15 +403,3 @@ endonucleases. Bioinformatics 30, 1473–1475 (2014).
 3.Haeussler, M. et al. Evaluation of off-target and on-target scoring algorithms and
 integration into the guide RNA selection tool CRISPOR. Genome Biol. 17,
 148 (2016).
-
-
-
-
-
-
-
-#### References:
-
- References can be included here or at the end of each relevant section.
- 
- 
