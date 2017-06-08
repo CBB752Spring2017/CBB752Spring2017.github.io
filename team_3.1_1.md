@@ -193,6 +193,8 @@ ____________
 ### 5. Conclusions <a name = "conclusions"></a>
 A network analysis of Carl's personal genome reveals some properties of his genes with SNPs. By two separate metrics, these genes have been quantitatively shown to have lower influence on the overall protein network. The Cytoscape visualization further helps demonstrate this pattern. These network plots also reveal a few genes (the large, red nodes) that are more likely to be problematic based on their positioning (between other nodes) and degree (large number of direct connections). None of these findings can definitely demonstrate pathogenicity. Still, these metrics are valuable for identifying and validating candidate mutations to report. Hierarchical analysis was employed to model the protein network, but there did not appear to be significant SNP enrichment in any of the 6 resultant layers. 
 
+
+## [Source code](https://github.com/CBB752Spring2017/final-project-3-1-team1-team-3-1-1)
 ____________
 
 ### 6. References <a name = "references"></a>
