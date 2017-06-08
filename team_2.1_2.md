@@ -397,9 +397,11 @@ that published in Haeussler et al likely step from differences in target genomes
 1.Zhu, L. J., Holmes, B. R., Aronin, N. & Brodsky, M. H. CRISPRseek: A
 Bioconductor Package to Identify Target-Specific Guide RNAs for
 CRISPR-Cas9 Genome-Editing Systems. PLoS One 9, (2014). 
+
 2.Bae, S., Park, J. & Kim, J.-S. Cas-OFFinder: a fast and versatile algorithm that
 searches for potential off-target sites of Cas9 RNA-guided
 endonucleases. Bioinformatics 30, 1473–1475 (2014). 
+
 3.Haeussler, M. et al. Evaluation of off-target and on-target scoring algorithms and
 integration into the guide RNA selection tool CRISPOR. Genome Biol. 17,
 148 (2016).
