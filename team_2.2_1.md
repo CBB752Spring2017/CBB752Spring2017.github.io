@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CBB752 Spring 2017
+title: Final project 2.2
 tagline: Final Project
 ---
 
@@ -11,13 +11,6 @@ CRISPR and personal genomics: The impact of SNPs on sgRNA sets and off target mu
 Table of Contents
 -----------------------
 
-
-
-
-**Contributors**
- -Writing:
- -Coding: Jiawei Wang
- -Pipeline:
 
 ### Introduction:
 
