@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CBB752 Spring 2017
+title: Final project 2.1
 tagline: Final Project
 ---
 
@@ -18,11 +18,6 @@ Table of Contents
 5. [Conclusions](#conclusions)
 6. [References](#references)
 
-
-**Contributors**
- -Writing: Amy Zhao
- -Coding: Yekaterina Kovalyova 
- -Pipeline: Krystle Reiss
 
 ### Introduction:
 #### Background and Project Summary
