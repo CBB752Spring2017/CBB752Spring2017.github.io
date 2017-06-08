@@ -124,6 +124,8 @@ Both PROVEAN and SIFT identified the same number of nonsynonymous, synonymous, a
 [SubjectZ SNV Rankings](https://github.com/CBB752Spring2017/final-project-1-3-team1-team-1-3-1/blob/master/polyphen%20damaging%20rankings.xlsx)
 ![text](https://github.com/CBB752Spring2017/final-project-1-3-team1-team-1-3-1/blob/master/pipeline_graphs.png)
 
+### [Source code](https://github.com/CBB752Spring2017/final-project-1-3-team1-team-1-3-1)
+
 
 References:
 
@@ -134,32 +136,3 @@ Choi Y., Chan A.P. PROVEAN web server: a tool to predict the functional effect o
 Kumar P., Henikoff S., Ng P.C. Predicting the effects of coding non-synonymous variants on protein function using the SIFT algorithm.
 Nature Protocols. 2009;4(8):1073-1082.
 
-
-
-#### Documentation:
-
-
-#### Results:
-
-
-
-
-
-
-
-
-
-#### Conclusions:
-
-
-
-
-
-
-### [Source code](https://github.com/CBB752Spring2017/final-project-1-3-team1-team-1-3-1)
-
-#### References:
-
- References can be included here or at the end of each relevant section.
- 
- 
