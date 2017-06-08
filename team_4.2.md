@@ -1,7 +1,7 @@
 ---
 layout: page
-title: CBB752 Spring 2017
-tagline: Final Project 4.2
+title: Final project 4.2
+tagline: Final Project
 ---
 
 A Study of the Effects of Mutations at A-I35 in Human Galectin-8 
@@ -28,15 +28,6 @@ Table of Contents
 -----------------------
 
 
-
-
-**Contributors**
-
- -Writing: Megan Brady
- 
- -Coding: Amber Jessop
- 
- -Pipeline: Krystle Reiss
 
 ### Introduction:
 
