@@ -208,6 +208,7 @@ ______________
 ### 5. Conclusions <a name = "conclusions"></a>
 A comparative analysis of Carl's personal genome is useful for finding which variants are functionally important, and how common those variants are. Here, we have developed tools and a pipeline for retrieving information on Carl's personal variants. Although the variants were too numerous to collect annotations on all of them in our time frame, we demonstrate that, based on the gnomAD dataset, 2.5% of Carl's SNPs and 10% of his indels are private variants. Additionally, our pipeline is able to collect allele frequency data for non-private variants. From here, it would not be a difficult next step to identify pathogenic annotations of shared variants as candidates for clinical reporting. 
 
+### [Source code](https://github.com/CBB752Spring2017/final-project-1-1-team-1-1)
 ______________
 
 ### 6. References <a name = "references"></a>
