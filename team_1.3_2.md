@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CBB752 Spring 2017
+title: Final project 1.3
 tagline: Final Project
 ---
 
@@ -11,13 +11,6 @@ Project 1.3: Analyzing the Protein Coding Mutations in the Zimmerome
 Table of Contents
 -----------------------
 
-
-
-
-**Contributors**
- -Writing, Code Workflow and Some Documentation: Ramya
- -Coding: Nir
- -Pipeline: Megan
 
 ### Introduction: What is Variant Prioritization?
 Since the advent of rapid and cheap whole genome sequencing technologies, we have amassed a large and diverse collection of human genomes. Interpreting this large amount of data is still challenging, and one such challenge is understanding the function of single nucleotide variations (SNVs). These often arise in individual genomes compared to reference sets which also include many single nucleotide polymorphisms (SNPs). Specifically, identifying pathogenic or deleterious mutations compared to common harmless mutations is a key challenge. Often, deleterious mutations are nonsynonymous, meaning that they result in the change of one amino acid to another. The average individual has over 10 million SNPs in the whole genome, about 20,000 of which are in the exome, or the protein-coding portion of the genome. Of course, not all of these are deleterious - the number of potentially deleterious mutations in the exome often amounts to about several hundred (1)(2). This problem of identifying relevant disease-causing mutations or variants compared to common mutations is called variant prioritization.
