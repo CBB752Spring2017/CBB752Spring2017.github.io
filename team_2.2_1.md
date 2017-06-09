@@ -11,20 +11,10 @@ CRISPR and personal genomics: The impact of SNPs on sgRNA sets and off target mu
 Table of Contents
 -----------------------
 
-
-### Introduction:
-
-
-
-
-
 ### Writing:
 
-
-
-
-
-
+Cas9 activity depends on both sgRNA sequence and experimental conditions. While obviously conditions inside the human body are difficult to control, knowledge of sgRNA sequence will greatly impact the effect of CRISPR/Cas9 efficiency. The many SNPs in Carl’s genome may lead to a variety of different off-target effects, mostly negative, which can be alleviated via well thought out application of CRISPR guide RNA selection rules, such as Rule Set 1 and Rule Set 2 as referenced in Doench et. al., as well as well established predictive algorithms to find off-target effects in silico.
+Overall, stochastic introduction of SNPs will generate novel NGG sites relative to any guide genome, leading to poor effects from any “generalized” CRISPR therapeutic strategies. Obviously, any CRISPR therapeutics will therefore require an initial genome sequencing to ensure that a full knowledge of potential S. pyogenes CRISPR sites is known. Additionally, any SNPs in guide sequence areas would lead to lower Cas9 cleavage rates at those loci. Base-pair mismatches will lead to decreased affinity in on-target sites, but may also lead to increased affinity in off-target sites. Using techniques such as tru-gRNA (truncated guide RNA) or a gRNA extension could also lead to more specific cleavage, but this again would be affected by SNP changes. Overall, the best way to avoid SNPs causing both undesired off-target effects or decreased therapeutic efficiency is probably through thorough sequencing and screening of the patient-genome prior to construction of CRISPR gRNA sequences.
 
 
 ### Coding:
