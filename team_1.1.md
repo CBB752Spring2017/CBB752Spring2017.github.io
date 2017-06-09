@@ -8,6 +8,7 @@ tagline: Final project
 Part 1.1 - Comparative Analysis of Personal Genomes
 ----------------------
 
+[try me] https://github.com/CBB752Spring2017/final-project-2-1-team2-team-2-1-2/blob/master/13059_2016_1012_MOESM2_ESM.tsv
 
 Table of Contents
 ----------------------
