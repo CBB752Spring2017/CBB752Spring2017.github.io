@@ -41,7 +41,7 @@ The 1000 Genomes Project was an international effort to sequence, for the first 
 
 **Figure 1**: Sample locations for the 1000 Genomes Project
 
-![](Writing/1000_Genomes_Project.png)  
+![](https://github.com/CBB752Spring2017/final-project-1-1-team-1-1/blob/master/Writing/1000_Genomes_Project.png)  
 
 ----------------------
 
@@ -83,7 +83,7 @@ There have been three main areas of progress in genomic databases over the past 
 
 **Figure 2**: Increased sample sizes in large-scale genomic databases
 
-![](CBB752Spring2017/final-project-1-1-team-1-1/Writing/exacv2_barplot_cut.png)  
+![](https://github.com/CBB752Spring2017/final-project-1-1-team-1-1/blob/master/Writing/exacv2_barplot_cut.png)  
 
 **Variant filtration**: Sequencing errors and mapping artifacts increase false positives. Variant filtration strategies are still evolving, but techniques such as Variant Quality Score Recalibration (VQSR) have adopted machine learning techniques to integrate information from multiple QC metrics to identify true variants. Scientists are capable of confident SNP-calling, but further improvements can still be made for calling indels and structural variants, particularly in low-complexity regions. 
 
