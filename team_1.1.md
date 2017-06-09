@@ -4,10 +4,6 @@ title: Final project 1.1
 tagline: Final project
 ---
 
-try here
-{% include_relative team_1.2.md %}
-
-
 Part 1.1 - Comparative Analysis of Personal Genomes
 ----------------------
 
