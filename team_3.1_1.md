@@ -7,6 +7,7 @@ tagline: Final Project
 Part 3.1 - Network Analysis of Personal Genomes
 ------------------
 
+![test](https://github.com/CBB752Spring2017/final-project-3-1-team1-team-3-1-1/blob/master/Writing/diverse-centrality-measures-v00.png)
 
 Table of Contents
 -----------------------
