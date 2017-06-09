@@ -70,10 +70,6 @@ Another interesting result is in the field of evolution, specifically focusing o
 
 
 
-
-
-
-
 ### Coding:
 Propose a tool to identify eQTLs in a subset of Carl’s variants using the GTEx database. What expression changes would you predict in Carl? Make sure to cover tissues that can be easily assayed.
 
@@ -141,26 +137,26 @@ SNP dataset of subject Z was annotated with dbSNP ID using the dbSNP VCF file co
 Part A  
 The numbers of identified eQTLs range from ~75,000 to ~450,000 according to different tissues examined and accounts for up to 13% of SNPs in subject Z’s genome. The subset of genes expected to have elevated or decreased expression was processed with GO enrichment analysis for biological processes. No significant enrichment in any biological process was observed, consistent with the notion that the overall effect of SNPs in subject Z’s genome should be neutral and dispersed throughout different biological functions. However the total eQTL dataset was enriched in certain biological processes that are not immediately pertaining to the physiological function of the tissues examined; generally, immune-related genes are shown to have higher representation among eQTL-affected genes. The analysis reports were attached below. In addition, 5365 SNPs were found to be eQTLs in all tissues tested. GO enrichment analysis didn’t show any highlighted biological processes.  
 
-![alt text](https://github.com/CBB752Spring2017/final-project-1-2-team-1-2/blob/master/pipeline%20images%20copy/image%204.png "Logo Title Text 1")  
+![alt text](https://raw.githubusercontent.com/CBB752Spring2017/final-project-1-2-team-1-2/master/pipeline%20images%20copy/image%204.png "Logo Title Text 1")  
 
 
 
 Distribution of eQTLs showed substantial chromosomal bias. Across different tissues tested, chromosome 6 was shown to be enriched in eQTLs even after normalization to total SNPs. Mapping of eQTLs from whole blood along Chromosome 6 identified that a relatively short genome region significantly enriched in eQTLs. Histogram of eQTL distribution is show in the following graph.  
-![alt text](https://github.com/CBB752Spring2017/final-project-1-2-team-1-2/blob/master/pipeline%20images%20copy/image%205.png "Logo Title Text 1")  
-![alt text](https://github.com/CBB752Spring2017/final-project-1-2-team-1-2/blob/master/pipeline%20images%20copy/image2.png "Logo Title Text 1")  
+![alt text](https://raw.githubusercontent.com/CBB752Spring2017/final-project-1-2-team-1-2/master/pipeline%20images%20copy/image%205.png "Logo Title Text 1")  
+![alt text](https://raw.githubusercontent.com/CBB752Spring2017/final-project-1-2-team-1-2/master/pipeline%20images%20copy/image2.png "Logo Title Text 1")  
 The distribution of cumulative effect was observed to be normal, with mean value around 0. However, genes significantly enriched in eQTLs that are predicted to have positive/negative effect on expression were also seen in the analysis. Scatter plot of genes and estimated sum of eQTL effector size is shown below.  
-![alt text](https://github.com/CBB752Spring2017/final-project-1-2-team-1-2/blob/master/pipeline%20images%20copy/image%201.png "Logo Title Text 1")  
+![alt text](https://raw.githubusercontent.com/CBB752Spring2017/final-project-1-2-team-1-2/master/pipeline%20images%20copy/image%201.png "Logo Title Text 1")  
   
 Part B  
 The input VCF files were analyzed using regulomedb.org online platform, which helped to identify 2587 SNPs from 3121 input lines.  48 SNPs (1.9% of total 2587 counts) scored 1f or above were predicted to affect protein binding and expression level. Additionally 253 SNPs (9.78% of input) scored 2c or higher are predicted “likely to affect binding”. Majority of eQTLs identified through this platform affecte gene expression in blood cells (monocytes and lymphoblastoid). Statistics of regulome scores of all SNPs tested is presented in the following chart.  
-![alt text](https://github.com/CBB752Spring2017/final-project-1-2-team-1-2/blob/master/pipeline%20images%20copy/image%203.png "Logo Title Text 1")  
+![alt text](https://raw.githubusercontent.com/CBB752Spring2017/final-project-1-2-team-1-2/master/pipeline%20images%20copy/image%203.png "Logo Title Text 1")  
 One example of eQTL identified in subject Z’s genome is rs1886730, located on chromosome 1: 2488607, predicted to affect gene expression of TNFRSF14. The protein product is functionally related to immune and inflammatory responses and has been shown to mediate the entry of herpes simplex virus into the cytoplasm. Footprinting experiment showed that rs1886730 lies in the binding motif of the transcription factor FOXO6; ChIP-Seq experiment also indicates that the DNA sequence harboring the SNP binds with numerous transcription factors. In smooth muscle, lung and lymphoblastoid cells this genome region was found to be flanking actively transcribing TSS. It is likely that polymorphism at this nucleotide directly affects TNFRSF14 expression via modulating binding affinity of transcription factor to DNA.   
 
 
 
 #### Conclusions:  
 The overall frequency of eQTLs identified through RegulomeDB is much smaller than that observed through direct comparison with GTEx database. The possible explanation for such discrepancy lies in 1. Only the common SNPs (with frequency larger than 0.01 among at least one population) were used for annotating Carl’s genome, which potentially leads to the underestimation of eQTLs by ignoring rare SNPs; 2. Chromosomal bias in SNP and eQTL numbers.  The input sample represent only 0.1% of total genome at one terminus of chromosome 1, and may thus biasedly represent the distribution of eQTLs in different genomic regions. Majority of eQTLs identified through RegulomeDB comes from blood cells, which is consistent with our result from direct comparison with GTEx database. This tissue bias is possibly a result of larger sample size due to easy accessibility of blood; however, immune-related genes actively transcribed in leukocytes might be more prone to regulation by eQTLs, as our GO enrichment analysis showed specific enrichment in immune-related genes in other peripheral tissues.   
-![alt text](https://github.com/CBB752Spring2017/final-project-1-2-team-1-2/blob/master/pipeline%20images%20copy/image%206.png "Logo Title Text 1")  
+![alt text](https://raw.githubusercontent.com/CBB752Spring2017/final-project-1-2-team-1-2/master/pipeline%20images%20copy/image%206.png "Logo Title Text 1")  
 
 
 ### [Source code](https://github.com/CBB752Spring2017/final-project-1-2-team-1-2)
