@@ -196,7 +196,7 @@ implementation.
     barplot(fractions, ylim = c(0,1), las=2, main = 'Comparison of PAM Sites Common to SubjectZ and Reference (Downsampled)', ylab='Fraction of Reference PAM Sites found in SubjectZ')
 
 
-![](https://github.com/CBB752Spring2017/final-project-2-2-team2-team-2-2-2/blob/master/Rplot.png)
+![](https://raw.githubusercontent.com/CBB752Spring2017/final-project-2-2-team2-team-2-2-2/master/Rplot.png)
 
 
 ### Pipeline:
@@ -221,7 +221,7 @@ The cutting specificity and efficiency scores are based on Doench et. al. The sp
 #### Results and Discussion:
 Using Carl’s maternal and paternal genomes and the GRCH37 reference genome, three sgRNA libraries have been constructed using the canonical PAM sequence NGG and a sequence length of 20 bases for chromosome 18. The maternal, paternal, and reference genomes each have 5.75 million sgRNAs, 5.56 million of which are common to all three libraries. The maternal library shared 97.93% of its entries with the paternal library, slightly higher then the 97.61% is shared with the reference genome. Only 1.05% of the maternal sgRNAs are unique to that genome. Similarly, only 1.06% of the paternal sgRNAs are unique to the paternal genome and 1.37% of the reference sgRNAs were not found in either the paternal or maternal genomes. The results are summarized in the venn diagram below:
 
-![](https://github.com/CBB752Spring2017/final-project-2-2-team2-team-2-2-2/blob/master/venn.png)
+![](https://raw.githubusercontent.com/CBB752Spring2017/final-project-2-2-team2-team-2-2-2/master/venn.png)
 
 ### [Source code](https://github.com/CBB752Spring2017/final-project-2-2-team2-team-2-2-2)
 
