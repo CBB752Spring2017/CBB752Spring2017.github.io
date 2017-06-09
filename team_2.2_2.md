@@ -199,9 +199,6 @@ implementation.
 ![](https://github.com/CBB752Spring2017/final-project-2-2-team2-team-2-2-2/blob/master/Rplot.png)
 
 
-
-
-
 ### Pipeline:
 sgRNA libraries for reference and Carl's genomes.
 
