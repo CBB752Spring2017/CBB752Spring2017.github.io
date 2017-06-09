@@ -378,7 +378,7 @@ numerous genome versions across several studies. CRISPR-Seek does
 slightly better with a total of 516 identified sites, but likely suffers
 from the same limitation (though the authors do not explicitly test the
 performance of this tool)
-![](752_21_files/figure-markdown_strict/plots-1.png)
+![](https://github.com/CBB752Spring2017/final-project-2-1-team2-team-2-1-2/blob/master/752_21_files/figure-markdown_strict/plots-1.png)
 
 
 
