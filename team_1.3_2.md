@@ -21,7 +21,7 @@ Here, we aim to prioritize variants in the exome of SubjectZ. SubjectZ has 22,98
 #### The Inputs Required for Variant Prioritization Tools
 The output of an alignment of one individual’s genome to a reference is often a Variant Call Format file. This file contains not only information about mutations in the nucleotide sequence compared to the reference, but also important metadata regarding the quality of the alignment, and other important properties that can allow for further sub-classification (3). In our analysis, we have a paired down VCF text file containing the following information. 
    
-![alt text](https://github.com/CBB752Spring2017/final-project-1-3-team2-team-1-3-2/blob/ramya/inputfile.png)
+![alt text](https://raw.githubusercontent.com/CBB752Spring2017/final-project-1-3-team2-team-1-3-2/ramya/inputfile.png)
   
 Perhaps the only non-self explanatory field is the GERP score which “measures evolutionary conservation of genetic sequence across species” (5). A higher score means that the nucleotide sequence is more conserved and variation is rarer and potentially more adverse. All of this information is parsed for prioritization.
 
@@ -73,7 +73,7 @@ Gerstein lab data shows that SubjectZ has 824 rare nonsynonymous coding variants
 #### Documentation: *De novo* Variant Prioritization Tool for SubjectZ
 Below is an overview of the Variant Prioritization Tool constructed by Nir.
 
-![alt text](https://github.com/CBB752Spring2017/final-project-1-3-team2-team-1-3-2/blob/master/13flow.png)
+![alt text](https://raw.githubusercontent.com/CBB752Spring2017/final-project-1-3-team2-team-1-3-2/master/13flow.png)
 
 The first step is to parse the SNV file for SubjectZ that was provided. Next, simply by reading the the file, one can classify each SNV as either synonymous or nonsynonymous. This file only contains nonsynonymous mutations, so this step is skipped. If synonymous mutations did exist, the frequency of occurance of the new codon can be calculated and scored. Next the amino acid mutation must be characterized as either missense or nonsense. If it is a nonsense mutation, the algorithm compares the length of SubjectZ's protein to that of the reference, classifying a larger difference in length as more deleterious. In the case of missense mutations, four parameters whose weights the user can decide are calculated. The size of the protein substitution is accounted for by calculating the difference in molecular weights, again with larger differences prioritized higher. The amino acid and nucleotide conservation scores are included through the BLOSUM and GERP scores for each substitution. Finally, a charge score, checking if the amino acid has changed properties or remained the same (neutral, hydrophobic, or hydrophillic) is included. Each of these four scores is added together with the user specified weights, generating a rank ordered list of SubjectZ's SNVs. 
 
@@ -106,7 +106,7 @@ Each of the programs was fairly consistent in their classification of a particul
 Both PROVEAN and SIFT identified the same number of nonsynonymous, synonymous, and nonsense mutations. This implies that these algorithms can correctly classify the type of mutation, and that both programs have the ability to correctly recognize the codons within the genes and whether the mutation affects the amino acid being encoded. PolyPhen2 has similar results, with slightly fewer synonymous mutations and nonsense mutations detected. The similarity between these programs with regards to codon detection and deleteriousness predictions suggests that though the different algorithms classify the majority of SNPs in a similar way, there are still some variants which are variably classified. Experimental analysis through mutagenesis will be helpful in determining whether these variably classified SNPs are truly harmful or benign.
 
 [SubjectZ SNV Rankings](https://github.com/CBB752Spring2017/final-project-1-3-team2-team-1-3-2/blob/master/polyphen%20damaging%20rankings.xlsx)
-![text](https://github.com/CBB752Spring2017/final-project-1-3-team2-team-1-3-2/blob/master/pipelinegraph.png)
+![text](https://raw.githubusercontent.com/CBB752Spring2017/final-project-1-3-team2-team-1-3-2/master/pipelinegraph.png)
 
 ### [Source code](https://github.com/CBB752Spring2017/final-project-1-3-team2-team-1-3-2)
 
