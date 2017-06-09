@@ -42,7 +42,7 @@ CRISPR-Cas9 was first characterized as an adaptive immune host defense found in 
 Essentially, application of the CRISPR-Cas9 system in other cells and organisms follows the same general mechanism outlined above. The only main difference is that the designed single guide RNAs (sgRNA) are comprised of \textit{fused} crRNA and tracrRNA (Pyne et al., 2016). 
 
 **Figure 1**: CRISPR Repair Mechanisms. Source: Lu et al, 2015.
-![crispr](crispr.png) 
+![crispr](https://github.com/CBB752Spring2017/final-project-2-1-team1-team-2-1-1/blob/master/crispr.png) 
 
 #### Risk of Off-Target Mutations due to CRISPR
 Because the sgRNAs used by CRISPR are short, the target sites are therefore short; there may be many sequences with high homology to the target site, resulting in more off-target mutations than other programmable nucleases (Tsai & Joung, 2016). Off-target mutations can range from being silent to being completely deleterious for cellular function. These detrimental effects can be felt in both the realms of wet lab research as well as clinical treatments. 
