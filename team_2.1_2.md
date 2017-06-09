@@ -15,6 +15,7 @@ Table of Contents
 
 ### Introduction: CRISPR/Cas in the Context of Genome Editing
 Since the discovery of its versatile genome editing function in 2013, the CRISPR/Cas system has been heavily studied for its use in targeted genome modification in eukaryotic cells. In many current applications, the Cas9 endonuclease from *Streptococcus pyogenes* is directed by a synthetic single stranded guide RNA (gRNA) containing homology to a genomic region. The gRNA displaces the duplex DNA and forms its own RNA:DNA duplex with one of the DNA strands. Cas9 then cleaves both strands of the DNA, inducing native DNA repair pathways. At this point, if random mutations at the site is the end goal, non-homologous end joining occurs with indels. However, if a specific point mutation or sequence insert is the goal, the addition of a double stranded DNA of interest will result in a small population of recombinants with the change after Cas9 action.
+
 ![alt text](https://github.com/CBB752Spring2017/final-project-2-1-team2-team-2-1-2/blob/master/crisprcas.png) 
 
 image from addgene.org
