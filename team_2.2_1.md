@@ -54,7 +54,7 @@ Results include 3 parts:
   4. List of gained and lost PAM sites due to Zimmerome SNPs by each chromosome: Difference_*.txt
   5. Summary results of the effect of Zimmerome SNPs, including number of #PAM sites, #gained, %gained, #lost and %lost: ZSNPs_stats.txt
 
-They are all in folder ./coding_results. It shows that PAM sites have an uneven distribution on each chromosome, which may reflect chromosomal structure and transcription activity. It also shows that the Zimmerome SNPs have a 0.2% to 0.3% change of PAM sites on each chromosome (both gained and lost sites, except chromsome Y). So if large scale CRISPR experiments are not carried out at the same time, the influence (chance of off-target due to SNPs) should be very low. But the lists of changed PAM sites due to SNPs are generated and stored as well for reference during sgRNA design to avoid possible off-target due to SNPs.
+They are all in folder [./coding_results](https://github.com/CBB752Spring2017/final-project-2-2-team1-team-2-2-1/tree/master/coding_results). It shows that PAM sites have an uneven distribution on each chromosome, which may reflect chromosomal structure and transcription activity. It also shows that the Zimmerome SNPs have a 0.2% to 0.3% change of PAM sites on each chromosome (both gained and lost sites, except chromsome Y). So if large scale CRISPR experiments are not carried out at the same time, the influence (chance of off-target due to SNPs) should be very low. But the lists of changed PAM sites due to SNPs are generated and stored as well for reference during sgRNA design to avoid possible off-target due to SNPs.
 
 
 ### Pipeline:
