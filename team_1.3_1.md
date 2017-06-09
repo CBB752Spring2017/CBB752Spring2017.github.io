@@ -95,8 +95,8 @@ Mutation_id Gene Mutation_type Estimation_score
 1. The score table is included in the repo.
 [Score Table](https://github.com/CBB752Spring2017/final-project-1-3-team1-team-1-3-1/blob/master/Coding/deleterious_score.txt)
 2. The score distribution.
-![text](https://github.com/CBB752Spring2017/final-project-1-3-team1-team-1-3-1/blob/master/Coding/V2_estimation.png)
-![text](https://github.com/CBB752Spring2017/final-project-1-3-team1-team-1-3-1/blob/master/Coding/Polyphen2_estimation.png)
+![text](https://raw.githubusercontent.com/CBB752Spring2017/final-project-1-3-team1-team-1-3-1/master/Coding/V2_estimation.png)
+![text](https://raw.githubusercontent.com/CBB752Spring2017/final-project-1-3-team1-team-1-3-1/master/Coding/Polyphen2_estimation.png)
 
 
 
@@ -122,7 +122,7 @@ Both PROVEAN and SIFT identified the same number of nonsynonymous, synonymous, a
 
 
 [SubjectZ SNV Rankings](https://github.com/CBB752Spring2017/final-project-1-3-team1-team-1-3-1/blob/master/polyphen%20damaging%20rankings.xlsx)
-![text](https://github.com/CBB752Spring2017/final-project-1-3-team1-team-1-3-1/blob/master/pipeline_graphs.png)
+![text](https://raw.githubusercontent.com/CBB752Spring2017/final-project-1-3-team1-team-1-3-1/master/pipeline_graphs.png)
 
 ### [Source code](https://github.com/CBB752Spring2017/final-project-1-3-team1-team-1-3-1)
 
