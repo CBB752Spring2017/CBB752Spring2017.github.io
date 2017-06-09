@@ -100,15 +100,15 @@ It was hard to find available online tools or algorithms to use that could condu
 The DIP and MINT network have been cut into six layers. Fisher's exact test was used to test the enrichment of proteins with SNP in Carl's genome in different layers. The distribution of proteins in the six hierarchical layers is visualized below in the pie graphs.
 
 Distribution of Proteins in the Hierarchical Layers of PPI Network Generated from DIP Database:
-![DIP_Layers](Pipeline/DIP_Layers.png)
+![DIP_Layers](https://raw.githubusercontent.com/CBB752Spring2017/final-project-3-1-team2-team-3-1-2/master/Pipeline/DIP_Layers.png)
 
 
 Distribution of Proteins in the Hierarchical Layers of PPI Network Generated from MINT Database:
-![MINT_Layers](Pipeline/MINT_Layers.png)
+![MINT_Layers](https://raw.githubusercontent.com/CBB752Spring2017/final-project-3-1-team2-team-3-1-2/master/Pipeline/MINT_Layers.png)
 
 Based on the result of Fisher's exact test ($\alpha$ = 0.05), there is no significant enrichment in any layers for the PPI network, which may indicate that proteins with SNPs are not clustered or scattered in any statistically significant patterns compared to those without SNPs. 
 
-![pvalues](pvalues.png)
+![pvalues](https://raw.githubusercontent.com/CBB752Spring2017/final-project-3-1-team2-team-3-1-2/master/pvalues.png)
 
 
 ### Writing: 
@@ -162,38 +162,38 @@ Shannon, P., Markiel, A., Ozier, O., Baliga, N.S., Wang, J.T., Ramage, D., Amin,
 
 ### Appendix:
 
-![table1](table1.png)
-![table2](table2.png)
-![table3](table3.png)
-![table4](table4.png)
+![table1](https://raw.githubusercontent.com/CBB752Spring2017/final-project-3-1-team2-team-3-1-2/master/table1.png)
+![table2](https://raw.githubusercontent.com/CBB752Spring2017/final-project-3-1-team2-team-3-1-2/master/table2.png)
+![table3](https://raw.githubusercontent.com/CBB752Spring2017/final-project-3-1-team2-team-3-1-2/master/table3.png)
+![table4](https://raw.githubusercontent.com/CBB752Spring2017/final-project-3-1-team2-team-3-1-2/master/table4.png)
 
 **Figure 1:** PPI Network Generated from DIP Database
-![DIP](Pipeline/DIP.png)
+![DIP](https://raw.githubusercontent.com/CBB752Spring2017/final-project-3-1-team2-team-3-1-2/master/Pipeline/DIP.png)
 
 **Figure 2:** PPI Network Generated from MINT Database
-![MINT](Pipeline/MINT.png)
+![MINT](https://raw.githubusercontent.com/CBB752Spring2017/final-project-3-1-team2-team-3-1-2/master/Pipeline/MINT.png)
 
 **Figure 3:** Degree Centrality Distribution in DIP Database Calculated by Hussein's Code
-![dipd](Coding/dipd.png)
+![dipd](https://raw.githubusercontent.com/CBB752Spring2017/final-project-3-1-team2-team-3-1-2/master/Coding/dipd.png)
 
 **Figure 4:** Betweenness Centrality Distribution in DIP Database Calculated by Hussein's Code
-![dipb](Coding/dipb.png)
+![dipb](https://raw.githubusercontent.com/CBB752Spring2017/final-project-3-1-team2-team-3-1-2/master/Coding/dipb.png)
 
 **Figure 5:** Degree Centrality Distribution in MINT Database Calculated by Hussein's Code
-![mintd](Coding/mintd.png)
+![mintd](https://raw.githubusercontent.com/CBB752Spring2017/final-project-3-1-team2-team-3-1-2/master/Coding/mintd.png)
 
 **Figure 6:** Betweenness Centrality Distribution in MINT Database Calculated by Hussein's Code
-![mintb](Coding/mintb.png)
+![mintb](https://raw.githubusercontent.com/CBB752Spring2017/final-project-3-1-team2-team-3-1-2/master/Coding/mintb.png)
 
 **Figure 7:** Degree Centrality Distribution in DIP Database Calculated by Cytoscape
-![DIP_degrees](Pipeline/DIP_degrees.png)
+![DIP_degrees](https://raw.githubusercontent.com/CBB752Spring2017/final-project-3-1-team2-team-3-1-2/master/Pipeline/DIP_degrees.png)
 
 **Figure 8:** Betweenness Centrality Distribution in DIP Database Calculated by Cytoscape
-![DIP_betweenness](Pipeline/DIP_betweenness.png)
+![DIP_betweenness](https://raw.githubusercontent.com/CBB752Spring2017/final-project-3-1-team2-team-3-1-2/master/Pipeline/DIP_betweenness.png)
 
 **Figure 9:** Degree Centrality Distribution in MINT Database Calculated by Cytoscape
-![MINT_degrees](Pipeline/MINT_degrees.png)
+![MINT_degrees](https://raw.githubusercontent.com/CBB752Spring2017/final-project-3-1-team2-team-3-1-2/master/Pipeline/MINT_degrees.png)
 
 **Figure 10:** Betweenness Centrality Distribution in MINT Database Calculated by Cytoscape
-![MINT_betweenness](Pipeline/MINT_betweenness.png)
+![MINT_betweenness](https://raw.githubusercontent.com/CBB752Spring2017/final-project-3-1-team2-team-3-1-2/master/Pipeline/MINT_betweenness.png)
 
