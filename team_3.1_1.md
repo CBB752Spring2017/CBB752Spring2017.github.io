@@ -7,8 +7,6 @@ tagline: Final Project
 Part 3.1 - Network Analysis of Personal Genomes
 ------------------
 
-![test](https://github.com/CBB752Spring2017/final-project-3-1-team1-team-3-1-1/raw/master/Writing/diverse-centrality-measures-v00.png)
-
 Table of Contents
 -----------------------
 1. [Introduction](#introduction)
@@ -51,13 +49,13 @@ where $\sigma_{st}$ is the total number of shortest paths from node $s$ to node 
 
 **Figure 1**: Example of High Centrality Measures
 
-![](Writing/diverse-centrality-measures.png)  
+![](https://raw.githubusercontent.com/CBB752Spring2017/final-project-3-1-team1-team-3-1-1/master/Writing/diverse-centrality-measures.png)  
 
 **Hierarchical Network Analysis**: Hierarchical models treat a network as a nested series of sub-networks. In other words, the lowest level is the original network, and every level above it collapses clusters of the network into individual nodes. These models enable the study of properties between successively larger clusters of nodes. Hierarchical models are intended for scale-free networks, which are the norm in PPI networks. 
 
 **Figure 2**: Example of a Simple Hierarchical Network
 
-![](Writing/hierarchical_picture.png)  
+![](https://raw.githubusercontent.com/CBB752Spring2017/final-project-3-1-team1-team-3-1-1/master/Writing/hierarchical_picture.png)  
 ------------
 
 #### 2.3 Databases
@@ -115,8 +113,8 @@ DIP PPI file can be downloaded online. We provide a DIP PPI file in the package.
 
 #### 3.3 Results:
 **Figure 3**: Network properties of proteins with and without Carl’s SNPs
-![](Coding/degree_centrality.png)
-![betweenness_centrality](Coding/betweenness_centrality.png)
+![](https://raw.githubusercontent.com/CBB752Spring2017/final-project-3-1-team1-team-3-1-1/master/Coding/degree_centrality.png)
+![betweenness_centrality](https://raw.githubusercontent.com/CBB752Spring2017/final-project-3-1-team1-team-3-1-1/master/Coding/betweenness_centrality.png)
 
 It is clear that proteins with SNPs are shifted left on both measures of centrality, meaning that they are both less likely to be connected to many other nodes, and less likely to help connect other nodes. 
 
@@ -145,12 +143,12 @@ Lastly, hierarchical network analysis was performed to look for enrichment or de
 ##### 4.3.1 Visualizing the Protein-Protein Network
 
 **Figure 4**: Visualized Network from DIP
-![](Pipeline/DIP_1.png)
-![DIP_2](Pipeline/DIP_2.png)  
+![](https://raw.githubusercontent.com/CBB752Spring2017/final-project-3-1-team1-team-3-1-1/master/Pipeline/DIP_1.png)
+![DIP_2](https://raw.githubusercontent.com/CBB752Spring2017/final-project-3-1-team1-team-3-1-1/master/Pipeline/DIP_2.png)
 
 **Figure 5**: Visualized Network from MINT
-![](Pipeline/MINT_1.png)
-![MINT_2](Pipeline/MINT_2.png)  
+![](https://raw.githubusercontent.com/CBB752Spring2017/final-project-3-1-team1-team-3-1-1/master/Pipeline/MINT_1.png)
+![MINT_2](https://raw.githubusercontent.com/CBB752Spring2017/final-project-3-1-team1-team-3-1-1/master/Pipeline/MINT_2.png)
 
 Because of the large number of nodes, it is not immediately obvious whether the red genes (with SNPs) are enriched at the borders and in smaller nodes, as would be expected. However, by inspecting the details below each map, such a pattern may be deduced. 
 
@@ -159,7 +157,7 @@ Because of the large number of nodes, it is not immediately obvious whether the 
 Cytoscape was used to replicate the histograms for degree centrality and betweenness centrality. This time, paired barplots are used for easy comparison. 
 
 **Figure 6**: Replicated network properties of genes with and without Carl's SNPs
-![](Pipeline/network_properties.png)  
+![](https://raw.githubusercontent.com/CBB752Spring2017/final-project-3-1-team1-team-3-1-1/master/Pipeline/network_properties.png)  
 
 ##### 4.3.3 Hierarchical Network Analysis
 
@@ -167,11 +165,11 @@ The DIP and MINT network are cut into 6 layers. Fisher’s exact is used to test
 
 **Figure 7**: Distribution of genes across layers in DIP
 
-![](Pipeline/DIP_Layers.png)  
+![](https://raw.githubusercontent.com/CBB752Spring2017/final-project-3-1-team1-team-3-1-1/master/Pipeline/DIP_Layers.png)  
 
 **Figure 8**: Distribution of genes across layers in MINT
 
-![](Pipeline/MINT_Layers.png)  
+![](https://raw.githubusercontent.com/CBB752Spring2017/final-project-3-1-team1-team-3-1-1/master/Pipeline/MINT_Layers.png)  
 
 ##### 4.3.4 Detection of Mutation Enrichment or Depletion in Each Hierarchical Layer
 
