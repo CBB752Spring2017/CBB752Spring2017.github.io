@@ -4,6 +4,9 @@ title: Final project 1.1
 tagline: Final project
 ---
 
+try here
+{% include_relative team_1.2.md %}
+
 
 Part 1.1 - Comparative Analysis of Personal Genomes
 ----------------------
@@ -40,7 +43,7 @@ The 1000 Genomes Project was an international effort to sequence, for the first 
 
 **Figure 1**: Sample locations for the 1000 Genomes Project
 
-![](https://github.com/CBB752Spring2017/final-project-1-1-team-1-1/blob/master/Writing/1000_Genomes_Project.png)  
+![](https://raw.githubusercontent.com/CBB752Spring2017/final-project-1-1-team-1-1/master/Writing/1000_Genomes_Project.png)  
 
 ----------------------
 
