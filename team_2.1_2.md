@@ -16,7 +16,7 @@ Table of Contents
 ### Introduction: CRISPR/Cas in the Context of Genome Editing
 Since the discovery of its versatile genome editing function in 2013, the CRISPR/Cas system has been heavily studied for its use in targeted genome modification in eukaryotic cells. In many current applications, the Cas9 endonuclease from *Streptococcus pyogenes* is directed by a synthetic single stranded guide RNA (gRNA) containing homology to a genomic region. The gRNA displaces the duplex DNA and forms its own RNA:DNA duplex with one of the DNA strands. Cas9 then cleaves both strands of the DNA, inducing native DNA repair pathways. At this point, if random mutations at the site is the end goal, non-homologous end joining occurs with indels. However, if a specific point mutation or sequence insert is the goal, the addition of a double stranded DNA of interest will result in a small population of recombinants with the change after Cas9 action.
 
-![alt text](https://github.com/CBB752Spring2017/final-project-2-1-team2-team-2-1-2/blob/master/crisprcas.png) 
+![alt text](https://raw.githubusercontent.com/CBB752Spring2017/final-project-2-1-team2-team-2-1-2/master/crisprcas.png) 
 
 image from addgene.org
 ### Writing:
@@ -109,7 +109,7 @@ Because the initial filtering of this tool is blunt (Hamming distances), the can
 Because of the integrated Minkowski weights and the DNA2Vec representation of the candidate space, MAGE is amenable to future adaptations and modifications that append directly to the feature vectors.  One such modification could be to include ENCODE data in the feature vectors.
 
 A step-wise procedure for MAGE folllows:
-![alt text](https://github.com/CBB752Spring2017/final-project-2-1-team2-team-2-1-2/blob/master/jayalgorithm.png)
+![alt text](https://raw.githubusercontent.com/CBB752Spring2017/final-project-2-1-team2-team-2-1-2/master/jayalgorithm.png)
 #### References:
 
 1. Patrick Ng. "dna2vec: Consistent vector representations of variable-length k-mers". arXiv preprint.	arXiv:1701.06279 [q-bio.QM]
@@ -380,7 +380,7 @@ numerous genome versions across several studies. CRISPR-Seek does
 slightly better with a total of 516 identified sites, but likely suffers
 from the same limitation (though the authors do not explicitly test the
 performance of this tool)
-![](https://github.com/CBB752Spring2017/final-project-2-1-team2-team-2-1-2/blob/master/752_21_files/figure-markdown_strict/plots-1.png)
+![](https://raw.githubusercontent.com/CBB752Spring2017/final-project-2-1-team2-team-2-1-2/master/752_21_files/figure-markdown_strict/plots-1.png)
 
 
 
