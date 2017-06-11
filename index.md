@@ -39,7 +39,7 @@ Files related to Carl’s genome can be found [here](<https://zimmerome.gerstein
 
 #### Part 1: Comparative analysis of personal genomes:
 
-**[-1. Compare the variants in Carl’s genome with those in the gnomAD and 1000 Genomes databases. Compare and contrast the results from the two databases.]({{site.url}}/team_1.1)**
+**[-1. Compare the variants in Carl’s genome with those in the gnomAD and 1000 Genomes databases. Compare and contrast the results from the two databases.]({{site.url}}/team_1.1) [(slides)](https://github.com/CBB752Spring2017/final-project-1-1-team-1-1/blob/master/presentation_1-1.pdf)**
 
 **Writing:** Describe the 1000 Genomes and gnomAD databases and what can be learned from collections of variants observed in large populations. How have these databases evolved over the past decade?
 
@@ -57,7 +57,7 @@ Files related to Carl’s genome can be found [here](<https://zimmerome.gerstein
 **Pipeline:** Process the variants in Carl’s genome to identify any eQTLs. Look at multiple tissues (make sure to include tissues that might be able to be tested in a noninvasive manner e.g. blood).
 
 
-**[-3. Analyze at the protein coding mutations in the Zimmerome (group 1)]({{site.url}}/team_1.3_1) [(group 2)]({{site.url}}/team_1.3_2)**
+**[-3. Analyze at the protein coding mutations in the Zimmerome (group 1)]({{site.url}}/team_1.3_1) [(group 2)]({{site.url}}/team_1.3_2) [(Slides)](https://github.com/CBB752Spring2017/final-project-3-1-team2-team-3-1-2/blob/master/Presentation_3.1.pptx?raw=true)**
 
 **Writing:** Explain the different types of functional information that can be incorporated into a variant prioritization scheme. Describe both the features that were chosen as well as those not included but which might be useful to incorporate in the future.
 
