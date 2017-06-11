@@ -109,6 +109,7 @@ Both PROVEAN and SIFT identified the same number of nonsynonymous, synonymous, a
 ![text](https://raw.githubusercontent.com/CBB752Spring2017/final-project-1-3-team2-team-1-3-2/master/pipelinegraph.png)
 
 ### [Source code](https://github.com/CBB752Spring2017/final-project-1-3-team2-team-1-3-2)
+### [Slides](https://github.com/CBB752Spring2017/final-project-1-3-team2-team-1-3-2/blob/master/Presentation_1.3.pptx?raw=true)
 
 
 References:
