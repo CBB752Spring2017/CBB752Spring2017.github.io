@@ -114,6 +114,7 @@ In this project, we reviewed the current online tools and proposed a program for
 This project gave a glimpse into the complex problem now facing scientists and clinicians alike in determining sgRNAs for implementation with the CRISPR-Cas9 system. These insights on off-target sites can lead to the selection of high-quality sgRNAs with fewer off-target effects. Hopefully, with the identification of sgRNAs that are only specific to the designated target sequences, the CRISPR-Cas9 system can be used more prevalently in both research and clinical settings.  
 
 ### [Source code](https://github.com/CBB752Spring2017/final-project-2-1-team1-team-2-1-1)
+### [Slides](https://github.com/CBB752Spring2017/final-project-2-1-team1-team-2-1-1/blob/master/Presentation%202.1.pptx?raw=true)
 
 
 #### References:
