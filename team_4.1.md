@@ -60,15 +60,15 @@ Program extracts the relevant information from each PDB file, finds coordinates 
 
 **A)** Phenylalanine and tyrosine are very similar in shape. The repulsive Lennard Jones energies associated with their rotations dip in very similar areas (χ1≈175°, χ2≈60°), suggesting that both are likely oriented in very similar positions with similar dihedral angles. The 3D plot shows direct comparison between the two residues (blue = F19, red = F19Y), where F19Y dihedral angle allowance, based on energy dip, is considerably narrower than for F19, perhaps due to the protruding -OH limiting movement. The heatmaps show more cleanly the allowed dihedral angles, and the heatmaps are not very different from one another. Thus, since F19 and F19Y are likely to be in approximately similar positions, we would expect that the rest of the protein will not deviate much from its original structure to accomodate the mutation.
 
-![3D plot of F19 and F19Y](https://github.com/CBB752Spring2017/final-project-4-1-team-4-1/blob/master/StructAnal/4BMB_Urlj_view1.png)
+![3D plot of F19 and F19Y](https://raw.githubusercontent.com/CBB752Spring2017/final-project-4-1-team-4-1/master/StructAnal/4BMB_Urlj_view1.png)
 
-![Heatmap of F19](https://github.com/CBB752Spring2017/final-project-4-1-team-4-1/blob/master/StructAnal/4BMB_Urlj_Heatmap_F19.png)
+![Heatmap of F19](https://raw.githubusercontent.com/CBB752Spring2017/final-project-4-1-team-4-1/master/StructAnal/4BMB_Urlj_Heatmap_F19.png)
 
-![Heatmap of F19Y](https://github.com/CBB752Spring2017/final-project-4-1-team-4-1/blob/master/StructAnal/4BMB_Urlj_Heatmap_F19Y.png)
+![Heatmap of F19Y](https://raw.githubusercontent.com/CBB752Spring2017/final-project-4-1-team-4-1/master/StructAnal/4BMB_Urlj_Heatmap_F19Y.png)
 
 **B)** The root-mean-square deviations (RMSD) of backbone heavy atoms tell us how different the backbone positions are between two proteins. The total RMSD between 4BMB and 4BME is 0.3 Angstroms. Shown below is the RMSD for each residue. It is clear that there are fluctuations in the RMSD, and highest deviations occur at residues ~15, ~55, ~85, and *especially* at ~73. (Note that at residue 19, where the mutation occurs, RMSD is relatively low.) These fluctuations suggest that the protein is somewhat flexible and capable of some movement, and thus maybe a bit unstable (as we would expect less movement to correlate with stability, and more movement to correlate with instability). Despite this, the fluctuations are actually fairly small (apart from the one residue that deviates over an Angstrom), suggesting that, realistically, the mutation is probably not changing the protein drastically.
 
-![residue vs. RMSD](https://github.com/CBB752Spring2017/final-project-4-1-team-4-1/blob/master/StructAnal/4BMB_RMSD.png)
+![residue vs. RMSD](https://raw.githubusercontent.com/CBB752Spring2017/final-project-4-1-team-4-1/master/StructAnal/4BMB_RMSD.png)
 
 ### Pipeline: 
 Download the 4BMB structure from the Protein DataBank. Using the Rosetta Software Suite, generate 10 different protein mutations at location 19 (choose 10 of the 20 amino acids). Obtain the relaxed protein structure following each mutation from Rosetta and compare the energy of the resulting structures. Which mutant is most stabilizing and which is most destabilizing? Why do you think this is the case?
@@ -104,11 +104,11 @@ For protein 4BMB, the difference in binding energy (ddG) after introducing the m
 
 According to the FASTA sequence of 4BMB downloaded from its PDB record, the amino acid at position 19 in the wild type protein is T, which is a very hydrophobic acid at pH = 2 and pH = 7 according to lectures by Professor O'Hern (slide 7, lecture 1). The most stabilizing mutation corresponds to M, which is also in the very same category and is the closest to T. That would be a significant reason behind M being the most stabilizing mutation, as both T and M are very hydrophobic and have similar chemical structure. Both amino acids tend to be very repelled from water, are composed mostly of carbon and hydrogen, and have very small dipole moments [2]. Other amino acids mentioned above are also hydrophobic, but their chemical structure is not as close to T's and accordingly are classified as "hydrophobic" instead of "very hydrophobic." Furthermore, in paper [1], authors suggest that this kind of mutation might be responsible to not only changing the stability of a protein, but also changing its function.
 
-![4BMB-Results](Pipeline/Figure1.png)
+![4BMB-Results](https://raw.githubusercontent.com/CBB752Spring2017/final-project-4-1-team-4-1/master/Pipeline/Figure1.png)
 
 For protein 1ZXB, results resemble a different pattern. Most mutations at point 19 lead to negative change in binding energy, i.e. were stabilizing mutations. However, the two mutations corresponding to Q and E are destabilizing ones and lead to positive one. Values range from -2.1682 to 1.0467. Results are shown in the figure below.
 
-![4BMB-Results](Pipeline/Figure2.png)
+![4BMB-Results](https://raw.githubusercontent.com/CBB752Spring2017/final-project-4-1-team-4-1/master/Pipeline/Figure2.png)
 
 #### Conclusions:
 
