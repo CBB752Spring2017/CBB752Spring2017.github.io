@@ -194,6 +194,7 @@ A network analysis of Carl's personal genome reveals some properties of his gene
 
 
 ## [Source code](https://github.com/CBB752Spring2017/final-project-3-1-team1-team-3-1-1)
+## [Slides](https://github.com/CBB752Spring2017/final-project-3-1-team1-team-3-1-1/blob/master/Presentation_3.1.pptx?raw=true)
 ____________
 
 ### 6. References <a name = "references"></a>
