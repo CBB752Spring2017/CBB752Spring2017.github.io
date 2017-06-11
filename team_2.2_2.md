@@ -224,6 +224,7 @@ Using Carl’s maternal and paternal genomes and the GRCH37 reference genome, th
 ![](https://raw.githubusercontent.com/CBB752Spring2017/final-project-2-2-team2-team-2-2-2/master/venn.png)
 
 ### [Source code](https://github.com/CBB752Spring2017/final-project-2-2-team2-team-2-2-2)
+### [Slides](https://github.com/CBB752Spring2017/final-project-2-2-team2-team-2-2-2/blob/master/presentation_2.2.pptx?raw=true)
 
 
 #### References:
