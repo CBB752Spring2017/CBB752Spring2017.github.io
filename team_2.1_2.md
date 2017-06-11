@@ -392,7 +392,7 @@ that published in Haeussler et al likely step from differences in target genomes
 
 
 ### [Source code](https://github.com/CBB752Spring2017/final-project-2-1-team2-team-2-1-2)
-### [Slides](https://github.com/CBB752Spring2017/final-project-2-1-team2-team-2-1-2/blob/master/Presentation%202.1.pptx?raw=true)
+### [Slides](https://github.com/CBB752Spring2017/final-project-2-1-team2-team-2-1-2/blob/master/presentation_2.1.pptx?raw=true)
 
 
 #### References:
