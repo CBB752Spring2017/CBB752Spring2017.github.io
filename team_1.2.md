@@ -160,7 +160,6 @@ The overall frequency of eQTLs identified through RegulomeDB is much smaller tha
 
 
 ### [Source code](https://github.com/CBB752Spring2017/final-project-1-2-team-1-2)
-### [Slides](https://github.com/CBB752Spring2017/final-project-1-2-team-1-2/blob/master/Presentation%20-%201.2_Final.pptx?raw=true)
 
 
 #### References:
