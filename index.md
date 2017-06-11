@@ -57,7 +57,7 @@ Files related to Carl’s genome can be found [here](<https://zimmerome.gerstein
 **Pipeline:** Process the variants in Carl’s genome to identify any eQTLs. Look at multiple tissues (make sure to include tissues that might be able to be tested in a noninvasive manner e.g. blood).
 
 
-**[-3. Analyze at the protein coding mutations in the Zimmerome (group 1)]({{site.url}}/team_1.3_1) [(group 2)]({{site.url}}/team_1.3_2) [(Slides)](https://github.com/CBB752Spring2017/final-project-3-1-team2-team-3-1-2/blob/master/Presentation_3.1.pptx?raw=true) [(Slides)](https://github.com/CBB752Spring2017/final-project-1-3-team1-team-1-3-1/raw/master/Presentation_1.3.pdf)**
+**[-3. Analyze at the protein coding mutations in the Zimmerome (group 1)]({{site.url}}/team_1.3_1) [(group 2)]({{site.url}}/team_1.3_2) [(Slides)](https://github.com/CBB752Spring2017/final-project-1-3-team1-team-1-3-1/raw/master/Presentation_1.3.pdf)**
 
 **Writing:** Explain the different types of functional information that can be incorporated into a variant prioritization scheme. Describe both the features that were chosen as well as those not included but which might be useful to incorporate in the future.
 
@@ -99,7 +99,7 @@ Files related to Carl’s genome can be found [here](<https://zimmerome.gerstein
 #### Part 4: Structure Analysis
 **Please see [here](<http://cbb752b17.gersteinlab.org/homework>) for all relevant files and equations for part 4.**
 
-**[-1. Mutation F19Y is found in Karl Zimmer’s genome for 4BMB (galectin-8). Analyze the structure of this mutation.]({{site.url}}/team_4.1)**
+**[-1. Mutation F19Y is found in Karl Zimmer’s genome for 4BMB (galectin-8). Analyze the structure of this mutation.]({{site.url}}/team_4.1) [(Slides)](https://github.com/CBB752Spring2017/final-project-4-1-team-4-1/raw/master/Presentation_4.1.pdf)**
 
 **Writing:** What changes has this mutation cause to the structure and what impact could the mutation have, from molecular pathway to the the phenotype? Read this [paper](<http://onlinelibrary.wiley.com/doi/10.1111/febs.12716/abstract>) . Discuss the changes in protein structure and binding affinity caused by this mutation. Does this mutation cause changes in phenotype? In particular, discuss the changes seen in Figure 4.
 
@@ -108,7 +108,7 @@ A crystal structure exists for the F19Y mutation (4BME). Using the aligned files
 
 **Pipeline:** Download the 4BMB structure from the Protein DataBank. Using the Rosetta Software Suite, generate 10 different protein mutations at location 19 (choose 10 of the 20 amino acids). Obtain the relaxed protein structure following each mutation from Rosetta and compare the energy of the resulting structures. Which mutant is most stabilizing and which is most destabilizing? Why do you think this is the case?
 
-**[-2. Analyze the structure of another mutation of galectin-8 at location 35: I35F.]({{site.url}}/team_4.2)**
+**[-2. Analyze the structure of another mutation of galectin-8 at location 35: I35F.]({{site.url}}/team_4.2) [(Slides)](https://github.com/CBB752Spring2017/final-project-4-2-team-4-2/raw/master/presentation_4.2.pdf)**
 
 **Writing:** What changes has this mutation cause to the structure and what impact could the mutation have, from molecular pathway to the the phenotype? Why would we expect the I35F mutation to be more detrimental to the protein than a mutation at location 19? Does this match what is found in the rmsd and energy calculations?
 
