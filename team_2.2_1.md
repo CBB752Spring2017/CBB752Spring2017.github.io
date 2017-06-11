@@ -76,6 +76,7 @@ They are all in folder [./coding_results](https://github.com/CBB752Spring2017/fi
 #### Conclusions:
 
 ### [Source code](https://github.com/CBB752Spring2017/final-project-2-2-team1-team-2-2-1)
+### [Slides](https://github.com/CBB752Spring2017/final-project-2-2-team1-team-2-2-1/blob/master/presentation_2.2.pptx?raw=true)
 
 #### References:
 
