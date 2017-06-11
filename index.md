@@ -39,7 +39,7 @@ Files related to Carl’s genome can be found [here](<https://zimmerome.gerstein
 
 #### Part 1: Comparative analysis of personal genomes:
 
-**[-1. Compare the variants in Carl’s genome with those in the gnomAD and 1000 Genomes databases. Compare and contrast the results from the two databases.]({{site.url}}/team_1.1) [(slides)](https://github.com/CBB752Spring2017/final-project-1-1-team-1-1/raw/master/presentation_1-1.pdf)**
+**[-1. Compare the variants in Carl’s genome with those in the gnomAD and 1000 Genomes databases. Compare and contrast the results from the two databases.]({{site.url}}/team_1.1) [(slides)]({{site.url}}/presentation_1-1.pdf)**
 
 **Writing:** Describe the 1000 Genomes and gnomAD databases and what can be learned from collections of variants observed in large populations. How have these databases evolved over the past decade?
 
