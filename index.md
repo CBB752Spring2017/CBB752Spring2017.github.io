@@ -39,7 +39,7 @@ Files related to Carl’s genome can be found [here](<https://zimmerome.gerstein
 
 #### Part 1: Comparative analysis of personal genomes:
 
-**[-1. Compare the variants in Carl’s genome with those in the gnomAD and 1000 Genomes databases. Compare and contrast the results from the two databases.]({{site.url}}/team_1.1) [(slides)]({{site.url}}/presentation_1-1.pdf)**
+**[-1. Compare the variants in Carl’s genome with those in the gnomAD and 1000 Genomes databases. Compare and contrast the results from the two databases.]({{site.url}}/team_1.1) [(Slides)](https://github.com/CBB752Spring2017/final-project-1-1-team-1-1/raw/master/presentation_1-1.pdf)**
 
 **Writing:** Describe the 1000 Genomes and gnomAD databases and what can be learned from collections of variants observed in large populations. How have these databases evolved over the past decade?
 
@@ -48,7 +48,7 @@ Files related to Carl’s genome can be found [here](<https://zimmerome.gerstein
 **Pipeline:** Identify and run a tool that finds the population frequencies for each of the variants observed in Carl’s genome and also look to see how many are private variants. How do these number change based on the two databases used?
 
 
-**[-2. Compare the variants in Carl’s genome with those found in the GTEx database. Use the results to predict gene expression in various tissues and better estimate the impact of noncoding variants in Carl’s genome.]({{site.url}}/team_1.2)**
+**[-2. Compare the variants in Carl’s genome with those found in the GTEx database. Use the results to predict gene expression in various tissues and better estimate the impact of noncoding variants in Carl’s genome.]({{site.url}}/team_1.2) [(Slides)](https://github.com/CBB752Spring2017/final-project-1-2-team-1-2/raw/master/Presentation_1.2.pdf)**
 
 **Writing:** Describe eQTLs and the GTEx database. How was the data present in GTEx generated and what scientific questions does it help answer?
 
@@ -57,7 +57,7 @@ Files related to Carl’s genome can be found [here](<https://zimmerome.gerstein
 **Pipeline:** Process the variants in Carl’s genome to identify any eQTLs. Look at multiple tissues (make sure to include tissues that might be able to be tested in a noninvasive manner e.g. blood).
 
 
-**[-3. Analyze at the protein coding mutations in the Zimmerome (group 1)]({{site.url}}/team_1.3_1) [(group 2)]({{site.url}}/team_1.3_2) [(Slides)](https://github.com/CBB752Spring2017/final-project-3-1-team2-team-3-1-2/blob/master/Presentation_3.1.pptx?raw=true)**
+**[-3. Analyze at the protein coding mutations in the Zimmerome (group 1)]({{site.url}}/team_1.3_1) [(group 2)]({{site.url}}/team_1.3_2) [(Slides)](https://github.com/CBB752Spring2017/final-project-3-1-team2-team-3-1-2/blob/master/Presentation_3.1.pptx?raw=true) [(Slides)](https://github.com/CBB752Spring2017/final-project-1-3-team1-team-1-3-1/raw/master/Presentation_1.3.pdf)**
 
 **Writing:** Explain the different types of functional information that can be incorporated into a variant prioritization scheme. Describe both the features that were chosen as well as those not included but which might be useful to incorporate in the future.
 
@@ -68,7 +68,7 @@ Files related to Carl’s genome can be found [here](<https://zimmerome.gerstein
 
 #### Part 2: Personal genomes and personalized medicine (CRISPR):
 
-**[-1. Identifying off target CRISPR sites (group 1)]({{site.url}}/team_2.1_1) [(group 2)]({{site.url}}/team_2.1_2)**
+**[-1. Identifying off target CRISPR sites (group 1)]({{site.url}}/team_2.1_1) [(group 2)]({{site.url}}/team_2.1_2) [(Slides)](https://github.com/CBB752Spring2017/final-project-2-1-team1-team-2-1-1/raw/master/presentation_2.1.pdf)**
 
 **Writing:** Explain the risk of off target mutations due to CRISPR. What factors determine the likelihood of a CRISPR guide RNA cutting at an off target site? 
 
@@ -77,7 +77,7 @@ Files related to Carl’s genome can be found [here](<https://zimmerome.gerstein
 **Pipeline:** Using two off target site prediction programs look at the predicted off target sites and compare to empirical observations in this [paper](<https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1012-2>).
 
 
-**[-2. CRISPR and personal genomics: The impact of SNPs on sgRNA sets and off target mutations. (group 1)]({{site.url}}/team_2.2_1) [(group 2)]({{site.url}}/team_2.2_2)** 
+**[-2. CRISPR and personal genomics: The impact of SNPs on sgRNA sets and off target mutations. (group 1)]({{site.url}}/team_2.2_1) [(group 2)]({{site.url}}/team_2.2_2) [(Slides)](https://github.com/CBB752Spring2017/final-project-2-2-team1-team-2-2-1/raw/master/presentation_2.2.pdf)** 
 
 **Writing:** How might SNPs in Carl's genome impact the use of CRISPR as a treatment? Read this [paper](<http://palgrave.nature.com/nbt/journal/v34/n2/full/nbt.3437.html>) about the design of guide RNAs. Discuss how individual SNPs would impact the off-target effects in the presence of the SNP. 
 
@@ -88,7 +88,7 @@ Files related to Carl’s genome can be found [here](<https://zimmerome.gerstein
 
 #### Part 3: Network analysis of personal genomes:
 
-**[-1. Propose a tool that calculates the degree centrality and betweenness centrality of proteins containing and not containing SNPs in Carl’s genome using a PPI file. PPI data can be downloaded from DIP, BIND, MIPS, MINT, and InAct databases. (group 1)]({{site.url}}/team_3.1_1) [(group 2)]({{site.url}}/team_3.1_2)**
+**[-1. Propose a tool that calculates the degree centrality and betweenness centrality of proteins containing and not containing SNPs in Carl’s genome using a PPI file. PPI data can be downloaded from DIP, BIND, MIPS, MINT, and InAct databases. (group 1)]({{site.url}}/team_3.1_1) [(group 2)]({{site.url}}/team_3.1_2) [(Slides)](https://github.com/CBB752Spring2017/final-project-3-1-team1-team-3-1-1/raw/master/Presentation_3.1.pdf)**
 
 **Writing:** Disucss the difference of degree centrality and betweenness centrality you observed. How are these centralities measurement helpful for us to understand different mutations and the protein-protein network.
 
